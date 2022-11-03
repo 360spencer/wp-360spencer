@@ -9,13 +9,13 @@
 	<title>
 	Comments on: Sample Page	</title>
 	<atom:link href="http://localhost/wordpress/sample-page/feed/" rel="self" type="application/rss+xml" />
-	<link></link>
+	<link>https://360spencer.github.io/wp-360spencer</link>
 	<description>Just another WordPress site</description>
-	<lastBuildDate>Fri, 28 Oct 2022 18:29:41 +0000</lastBuildDate>
+	<lastBuildDate>Thu, 03 Nov 2022 16:34:17 +0000</lastBuildDate>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
 	1	</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=6.0.3</generator>
+	<generator>https://wordpress.org/?v=6.1</generator>
 </channel>
 </rss>

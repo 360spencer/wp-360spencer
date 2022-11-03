@@ -10,7 +10,7 @@
 <channel>
 	<title>360 Spencer</title>
 	<atom:link href="http://localhost/wordpress/feed/" rel="self" type="application/rss+xml" />
-	<link></link>
+	<link>https://360spencer.github.io/wp-360spencer</link>
 	<description>Just another WordPress site</description>
 	<lastBuildDate>Fri, 28 Oct 2022 17:50:15 +0000</lastBuildDate>
 	<language>en-US</language>
@@ -18,23 +18,23 @@
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
 	1	</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=6.0.3</generator>
+	<generator>https://wordpress.org/?v=6.1</generator>
 	<item>
 		<title>Hello world!</title>
-		<link>/2022/10/28/hello-world/</link>
-					<comments>/2022/10/28/hello-world/#comments</comments>
+		<link>https://360spencer.github.io/wp-360spencer/2022/10/28/hello-world/</link>
+					<comments>https://360spencer.github.io/wp-360spencer/2022/10/28/hello-world/#comments</comments>
 		
 		<dc:creator><![CDATA[Spencer]]></dc:creator>
 		<pubDate>Fri, 28 Oct 2022 17:50:15 +0000</pubDate>
 				<category><![CDATA[Uncategorized]]></category>
-		<guid isPermaLink="false">/?p=1</guid>
+		<guid isPermaLink="false">https://360spencer.github.io/wp-360spencer/?p=1</guid>
 
 					<description><![CDATA[Welcome to WordPress. This is your first post. Edit or delete it, then start writing!]]></description>
 										<content:encoded><![CDATA[
 <p>Welcome to WordPress. This is your first post. Edit or delete it, then start writing!</p>
 ]]></content:encoded>
 					
-					<wfw:commentRss>/2022/10/28/hello-world/feed/</wfw:commentRss>
+					<wfw:commentRss>https://360spencer.github.io/wp-360spencer/2022/10/28/hello-world/feed/</wfw:commentRss>
 			<slash:comments>1</slash:comments>
 		
 		

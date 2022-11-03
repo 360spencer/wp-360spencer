@@ -9,22 +9,22 @@
 	<title>
 	Comments for 360 Spencer	</title>
 	<atom:link href="http://localhost/wordpress/comments/feed/" rel="self" type="application/rss+xml" />
-	<link></link>
+	<link>https://360spencer.github.io/wp-360spencer</link>
 	<description>Just another WordPress site</description>
 	<lastBuildDate>Fri, 28 Oct 2022 17:50:15 +0000</lastBuildDate>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
 	1	</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=6.0.3</generator>
+	<generator>https://wordpress.org/?v=6.1</generator>
 	<item>
 		<title>
 		Comment on Hello world! by A WordPress Commenter		</title>
-		<link>/2022/10/28/hello-world/#comment-1</link>
+		<link>https://360spencer.github.io/wp-360spencer/2022/10/28/hello-world/#comment-1</link>
 
 		<dc:creator><![CDATA[A WordPress Commenter]]></dc:creator>
 		<pubDate>Fri, 28 Oct 2022 17:50:15 +0000</pubDate>
-		<guid isPermaLink="false">/?p=1#comment-1</guid>
+		<guid isPermaLink="false">https://360spencer.github.io/wp-360spencer/?p=1#comment-1</guid>
 
 					<description><![CDATA[Hi, this is a comment.
 To get started with moderating, editing, and deleting comments, please visit the Comments screen in the dashboard.
