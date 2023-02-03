@@ -10,7 +10,7 @@
 <channel>
 	<title>UI &#8211; 360Spencer</title>
 	<atom:link href="http://localhost/wordpress202/project-type/ui/feed/?simply_static_page=218693" rel="self" type="application/rss+xml" />
-	<link>https://360spencer.github.io/wp-360spencer</link>
+	<link>//360spencer.github.io/wp-360spencer</link>
 	<description>UX Design Director</description>
 	<lastBuildDate>Thu, 02 Feb 2023 21:33:48 +0000</lastBuildDate>
 	<language>en-US</language>
@@ -21,7 +21,7 @@
 	<generator>https://wordpress.org/?v=6.1.1</generator>
 	<item>
 		<title>Marriott x Windows Phone</title>
-		<link>https://360spencer.github.io/wp-360spencer/project/marriott-windowsphone/</link>
+		<link>//360spencer.github.io/wp-360spencer/project/marriott-windowsphone/</link>
 		
 		<dc:creator><![CDATA[spencer]]></dc:creator>
 		<pubDate>Thu, 26 Jan 2023 02:00:22 +0000</pubDate>
@@ -35,24 +35,24 @@
 			</item>
 		<item>
 		<title>Full Measure Admin Platform</title>
-		<link>https://360spencer.github.io/wp-360spencer/project/full-measure-admin-platform/</link>
-					<comments>https://360spencer.github.io/wp-360spencer/project/full-measure-admin-platform/#respond</comments>
+		<link>//360spencer.github.io/wp-360spencer/project/full-measure-admin-platform/</link>
+					<comments>//360spencer.github.io/wp-360spencer/project/full-measure-admin-platform/#respond</comments>
 		
 		<dc:creator><![CDATA[spencer]]></dc:creator>
 		<pubDate>Thu, 26 Jan 2023 01:01:09 +0000</pubDate>
-				<guid isPermaLink="false">https://360spencer.github.io/wp-360spencer/?post_type=portfolio#038;p=6643</guid>
+				<guid isPermaLink="false">//360spencer.github.io/wp-360spencer/?post_type=portfolio#038;p=6643</guid>
 
 					<description><![CDATA[]]></description>
 										<content:encoded><![CDATA[]]></content:encoded>
 					
-					<wfw:commentRss>https://360spencer.github.io/wp-360spencer/project/full-measure-admin-platform/feed/</wfw:commentRss>
+					<wfw:commentRss>//360spencer.github.io/wp-360spencer/project/full-measure-admin-platform/feed/</wfw:commentRss>
 			<slash:comments>0</slash:comments>
 		
 		
 			</item>
 		<item>
 		<title>Full Measure Student Experiences</title>
-		<link>https://360spencer.github.io/wp-360spencer/project/full-measure-student-experiences/</link>
+		<link>//360spencer.github.io/wp-360spencer/project/full-measure-student-experiences/</link>
 		
 		<dc:creator><![CDATA[spencer]]></dc:creator>
 		<pubDate>Thu, 26 Jan 2023 01:00:40 +0000</pubDate>

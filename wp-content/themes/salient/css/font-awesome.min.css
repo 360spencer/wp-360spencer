@@ -1,11 +1,11 @@
 
 @font-face{
 	font-family:'FontAwesome';
-	src:url('https://360spencer.github.io/wp-360spencer/wp-content/themes/salient/css/fonts/fontawesome-webfont.eot?v=4.2');
-	src:url('https://360spencer.github.io/wp-360spencer/wp-content/themes/salient/css/fonts/fontawesome-webfont.eot#iefix&v=4.2') format('embedded-opentype'),
-		url('https://360spencer.github.io/wp-360spencer/wp-content/themes/salient/css/fonts/fontawesome-webfont.svg#fontawesomeregular?v=4.2') format('svg'),
-	    url('https://360spencer.github.io/wp-360spencer/wp-content/themes/salient/css/fonts/fontawesome-webfont.woff?v=4.2') format('woff'),
-	    url('https://360spencer.github.io/wp-360spencer/wp-content/themes/salient/css/fonts/fontawesome-webfont.ttf?v=4.2') format('truetype');
+	src:url('//360spencer.github.io/wp-360spencer/wp-content/themes/salient/css/fonts/fontawesome-webfont.eot?v=4.2');
+	src:url('//360spencer.github.io/wp-360spencer/wp-content/themes/salient/css/fonts/fontawesome-webfont.eot#iefix&v=4.2') format('embedded-opentype'),
+		url('//360spencer.github.io/wp-360spencer/wp-content/themes/salient/css/fonts/fontawesome-webfont.svg#fontawesomeregular?v=4.2') format('svg'),
+	    url('//360spencer.github.io/wp-360spencer/wp-content/themes/salient/css/fonts/fontawesome-webfont.woff?v=4.2') format('woff'),
+	    url('//360spencer.github.io/wp-360spencer/wp-content/themes/salient/css/fonts/fontawesome-webfont.ttf?v=4.2') format('truetype');
 	font-weight:normal;
 	font-display: block;
 	font-style:normal;

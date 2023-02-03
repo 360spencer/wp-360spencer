@@ -10,7 +10,7 @@
 <channel>
 	<title>Print &#8211; 360Spencer</title>
 	<atom:link href="http://localhost/wordpress202/project-type/print/feed/?simply_static_page=218698" rel="self" type="application/rss+xml" />
-	<link>https://360spencer.github.io/wp-360spencer</link>
+	<link>//360spencer.github.io/wp-360spencer</link>
 	<description>UX Design Director</description>
 	<lastBuildDate>Thu, 02 Feb 2023 20:25:11 +0000</lastBuildDate>
 	<language>en-US</language>
@@ -21,11 +21,11 @@
 	<generator>https://wordpress.org/?v=6.1.1</generator>
 	<item>
 		<title>Alex Erkiletian Letterpress</title>
-		<link>https://360spencer.github.io/wp-360spencer/project/alex-erkiletian/</link>
+		<link>//360spencer.github.io/wp-360spencer/project/alex-erkiletian/</link>
 		
 		<dc:creator><![CDATA[spencer]]></dc:creator>
 		<pubDate>Thu, 26 Jan 2023 04:02:59 +0000</pubDate>
-				<guid isPermaLink="false">https://360spencer.github.io/wp-360spencer/?post_type=portfolio#038;p=6364</guid>
+				<guid isPermaLink="false">//360spencer.github.io/wp-360spencer/?post_type=portfolio#038;p=6364</guid>
 
 					<description><![CDATA[]]></description>
 										<content:encoded><![CDATA[]]></content:encoded>
@@ -35,7 +35,7 @@
 			</item>
 		<item>
 		<title>Full Measure Brand</title>
-		<link>https://360spencer.github.io/wp-360spencer/project/fullmeasure-branding/</link>
+		<link>//360spencer.github.io/wp-360spencer/project/fullmeasure-branding/</link>
 		
 		<dc:creator><![CDATA[spencer]]></dc:creator>
 		<pubDate>Thu, 26 Jan 2023 01:02:36 +0000</pubDate>
