@@ -1,0 +1,88 @@
+
+/* image upload */
+.widget-inside .nectar-media-preview {
+  max-width: 100%;
+}
+
+/* height units / opacity */
+.widget-inside .height-units label {
+  display: block;
+}
+.widget-inside .flex-cols .flex {
+  display: flex;
+  flex-wrap: nowrap;
+}
+.widget-inside .flex-cols .flex > span:first-child {
+  margin-right: 10px;
+}
+.widget-inside .flex-cols .flex > span {
+  width: 50%;
+}
+.widget-inside .height-units .flex > span {
+  width: auto;
+}
+@media only screen and (max-width: 1400px) and (min-width: 1250px) {
+  .widget-inside .overlay-opacity .flex > span label {
+    font-size: 11px;
+  }
+}
+
+/* content selection */
+.widget-inside .content-alignment-select .selection {
+  display: flex;
+  flex-wrap: wrap;
+  border-top: 1px solid #dcdcdc;
+  border-left: 1px solid #dcdcdc;
+}
+.widget-inside .content-alignment-select .selection > span {
+  width: 33%;
+  height: 44px;
+  text-align: center;
+  line-height: 44px;
+  border-right: 1px solid #dcdcdc;
+  border-bottom: 1px solid #dcdcdc;
+  color: #000;
+  cursor: pointer;
+  box-sizing: border-box;
+  display: inline-block;
+}
+.widget-inside .content-alignment-select .selection > span span {
+  color: inherit;
+  line-height: inherit;
+  transition: none;
+  font-size: 16px;
+}
+.widget-inside .content-alignment-select .selection > span.active,
+.widget-inside .content-alignment-select .selection > span:hover {
+  background-color: #3a67ff;
+  color: #fff;
+  box-shadow: 0px 4px 10px rgba(51,83,252,0.25);
+}
+.widget-inside .content-alignment-select .selection .active .center-circle,
+.widget-inside .content-alignment-select .selection span:hover .center-circle  {
+  border-color: #fff;
+}
+.widget-inside .content-alignment-select .selection .center-circle {
+  border-radius: 100px;
+  height: 6px;
+  width: 6px;
+  border: 2px solid #000;
+  display: inline-block;
+}
+
+.widget-inside .content-alignment-select .selection > span:nth-child(1) span {
+  transform: rotate(-45deg);
+  height: auto;
+}
+.widget-inside .content-alignment-select .selection > span:nth-child(3) span {
+  transform: rotate(45deg);
+  height: auto;
+}
+.widget-inside .content-alignment-select .selection > span:nth-child(7) span {
+  transform: rotate(45deg);
+  height: auto;
+}
+.widget-inside .content-alignment-select .selection > span:nth-child(9) span {
+  transform: rotate(-45deg);
+  height: auto;
+}

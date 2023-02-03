@@ -1,0 +1,863 @@
+/*-------------------------------------------------------------------------
+  
+	[Table Of Contents]
+	
+	1. Slider Core
+		1.1. Controls
+		1.2. Content
+		1.3. Alignment
+		1.4. Video
+		1.5. General
+	2. Responsive
+
+-------------------------------------------------------------------------*/
+
+
+/*-------------------------------------------------------------------------*/
+/*	1.	Slider Core
+/*-------------------------------------------------------------------------*/
+
+
+/* 1.1 Controls */
+div.slider-nav span {
+	  display: block;
+    width: 56px;
+    height: 56px;
+    top: 380px;
+    text-indent: -9999px;
+    margin-top: -35px;
+    cursor: pointer; 
+    background-repeat: no-repeat;
+}
+
+body .orbit-wrapper div.slider-nav > span.left i {
+	padding-right: 1px;
+}
+
+body .orbit-wrapper div.slider-nav > span.right i {
+	padding-left: 1px;
+}
+
+div.slider-nav span i { 
+	color: #a0a0a0;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	font-size: 18px;
+	line-height: 25px;
+	width: 32px;
+	background-color: transparent;
+	z-index: 1000;
+}
+
+html body div.slider-nav > span.right, 
+html body div.slider-nav > span.left {
+	 margin-top: 0px;
+	 -webkit-transition: none;
+    -moz-transition: none;
+    -o-transition: none;
+    transition: none;
+}
+
+div.slider-nav span.right, 
+div.slider-nav span.left,  
+div.slider-nav span.right span,  
+div.slider-nav span.left span {
+	-webkit-transition: all 0.2s linear;
+    -moz-transition: all 0.2s linear;
+    -o-transition: all 0.2s linear;
+    transition: all 0.2s linear;
+    border-radius: 1px 1px 1px 1px;
+    -moz-border-radius: 1px 1px 1px 1px;
+    -webkit-border-radius: 1px 1px 1px 1px;
+    -o-border-radius: 1px 1px 1px 1px;
+}
+
+.orbit-wrapper div.slider-nav span.right {
+	background-color: #27CFC3;
+    background-image: url(https://360spencer.github.io/wp-360spencer/wp-content/plugins/salient-home-slider/img/icons/slider-arrows.png);
+    right: 0px; 
+    background-position: right top;
+}
+
+body[data-smooth-scrolling="1"] .orbit-wrapper div.slider-nav span.right {
+	right: 15px; 
+}
+
+.orbit-wrapper div.slider-nav span.left {
+	background-color: #27CFC3;
+    background-image: url(https://360spencer.github.io/wp-360spencer/wp-content/plugins/salient-home-slider/img/icons/slider-arrows.png);
+    left: 0px; 
+    background-position: left top;
+}
+
+div.slider-nav span.right span.white {
+	opacity: 0;
+	top: 35px;
+    right: 0px; 
+    position: absolute;
+    background: url(https://360spencer.github.io/wp-360spencer/wp-content/plugins/salient-home-slider/img/icons/slider-arrows.png);
+    background-position: right bottom;
+}
+
+div.slider-nav span.left span.white {
+	opacity: 0;
+	top: 35px;
+    right: 0px; 
+    position: absolute;
+    background: url(https://360spencer.github.io/wp-360spencer/wp-content/plugins/salient-home-slider/img/icons/slider-arrows.png);
+    background-position: left bottom;
+}
+
+
+div.slider-nav span.right:hover span.white, 
+div.slider-nav span.left:hover span.white {
+	opacity: 1;
+}
+
+div.slider-nav span span.shadow {
+	display: block;
+	top: 91px;
+    right: 0px;
+    height: 7px;
+    position: absolute;
+    width: 56px;
+    background: url(https://360spencer.github.io/wp-360spencer/wp-content/plugins/salient-home-slider/img/icons/slider-arrows-shadows.png);
+}
+
+div.slider-nav span.left span.shadow { 
+	background-position: left bottom; 
+}
+
+div.slider-nav span.right span.shadow { 
+	background-position: right bottom; 
+}
+
+
+/* 1.2 Content */
+#featured article {
+	position: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 650px; 
+    width: 100%;
+    z-index: 1;
+    background-color: #000; 
+} 
+
+#featured article[data-background-cover="1"] {
+	background-size: cover;
+}
+
+#featured .orbit-slide article .container {
+	position: absolute;
+	width: 100%;
+	max-width: none;
+	top: 295px;
+	margin: 0 auto;
+}
+
+#featured .orbit-slide article .container .span_12 {
+	margin: 0 auto;
+	width: 1100px;	
+	float: none;
+}
+
+#featured article .post-title h2 {
+	max-width: 460px;
+	min-width: 460px;
+	margin-bottom: 7px;
+	opacity: 0;
+	padding: 0px 10px;
+	left: -10px;
+	position: relative;
+	margin-top: 20px;
+    font-weight: 300;
+}
+
+#featured article .post-title h2 span {
+	padding: 4px 0px;
+	background: none repeat scroll 0 0 rgba(0, 0, 0, 0.5);
+	box-shadow: 10px 0 0 rgba(0, 0, 0, 0.5), -10px 0 0 rgba(0, 0, 0, 0.5);
+	-moz-box-shadow: 10px 0 0 rgba(0, 0, 0, 0.5), -10px 0 0 rgba(0, 0, 0, 0.5);
+	-webkit-box-shadow: 10px 0 0 rgba(0, 0, 0, 0.5), -10px 0 0 rgba(0, 0, 0, 0.5);
+	-o-box-shadow: 10px 0 0 rgba(0, 0, 0, 0.5), -10px 0 0 rgba(0, 0, 0, 0.5);
+	color: #fff;
+	font-size: 32px;
+	line-height: 54px;
+	margin-bottom: 1px;
+	background-position: right -53px;
+  margin-bottom: 15px;
+  margin-top: 20px;
+  -webkit-box-decoration-break: clone;
+  -o-box-decoration-break: clone;
+  box-decoration-break: clone;
+}
+
+#featured article .post-title > a {
+	opacity: 0;
+	color: #fff;
+	left: -10px;
+	top: 10px;
+	letter-spacing: 1.5px;
+	position: relative;
+	display: inline-block;
+	padding: 14px 18px;
+	border: 2px solid rgba(255,255,255,0.3);
+	-webkit-transition: border-color 0.3s linear, background-color 0.3s linear;
+  -moz-transition: border-color 0.3s linear, background-color 0.3s linear;
+  -o-transition: border-color 0.3s linear, background-color 0.3s linear;
+  transition: border-color 0.3s linear, background-color 0.3s linear;
+}
+
+#featured article .post-title a:hover {
+	border-color: #27CFC3;
+}
+
+
+/* 1.3 Alignment */
+#featured .orbit-slide.centered article .container .span_12 {
+    margin: 0 auto ;
+    text-align: center;
+    width: 100%; 
+}
+
+#featured .orbit-slide.centered article .post-title h2 {
+    margin: 0 auto 7px auto;
+    left: -10px;
+    max-width: 560px;
+    min-width: 560px;
+}
+
+
+#featured .orbit-slide.right article .container .span_12 {
+    margin: 0 auto ;
+    text-align: right;
+    width: 100%;
+}
+
+#featured .orbit-slide.right article .post-title h2 {
+    margin: 0 auto;
+    right: 10px;
+    float: right;
+    left: auto;
+}
+
+#featured .orbit-slide.right article .post-title > a {
+	right: -10px;
+	float: right;
+	clear: both;
+}
+
+
+#featured .orbit-slide.has-video h2 {
+	float: right;
+    max-width: 400px;
+    min-width: 400px;
+} 
+
+#featured .orbit-slide.has-video .post-title > a {
+	left: 12px;
+}
+
+
+/* 1.4 Content */
+#featured .video {
+	float: left; 
+	width: 678px;
+	left: -8px; 
+	margin-bottom: 100px;
+	position: relative;
+	z-index: 1;
+	opacity: 0;
+}
+
+#featured .more-info, #featured .btv {
+	display: none;
+}
+
+#featured .video video {
+	display: none;
+}
+
+ #featured .video {
+	display: none;
+}
+
+#featured .video .mejs-mediaelement {
+	visibility: hidden;	
+}
+
+#featured .video .mejs-mediaelement video {
+	display: block;
+}
+
+
+#featured .video .mejs-container {
+	background-color: #111;
+	background-image: none;
+}
+ 
+#featured .jp-video-container {
+	margin-bottom: 0px;
+}
+
+#featured .fluid-placeholder {
+	display: none;
+}
+
+
+/* 1.5 General */
+#featured { 
+	width: 100%;
+	margin-top: -70px;
+	position: relative;
+	z-index: 1;
+	height: 650px;
+	background: #000 url('https://360spencer.github.io/wp-360spencer/wp-content/plugins/salient-home-slider/img/icons/loading.gif') no-repeat center center;
+	overflow: hidden; 
+}
+
+#featured>img,  
+#featured>div,
+#featured>a { 
+	display: none; 
+}
+
+html:not(.js) #featured {
+	display: none;
+}
+
+div.orbit-wrapper {
+    width: 100%;
+    height: 1px;
+    top: 0px;
+    z-index: 1;
+    position: relative; }
+
+div.orbit {
+    width: 1px;
+    position: relative;
+    overflow: hidden }
+
+div.orbit>img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: none; }
+
+div.orbit > a {
+    border: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    line-height: 0; 
+    display: none; }
+
+.orbit > div {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%; }
+
+div.timer {
+    width: 40px;
+    height: 40px;
+    overflow: hidden;
+    position: absolute;
+    top: 40px;
+    display: none;
+    right: 10px;
+    opacity: .6;
+    cursor: pointer;
+    z-index: 1001; }
+
+span.rotator {
+    display: block;
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    top: 0;
+    left: -20px;
+    background: url(https://360spencer.github.io/wp-360spencer/wp-content/plugins/salient-home-slider/img/orbit/rotator-black.png) no-repeat;
+    z-index: 3; }
+
+span.mask {
+    display: block;
+    width: 20px;
+    height: 40px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 2;
+    overflow: hidden; }
+
+span.rotator.move {
+    left: 0 }
+
+span.mask.move {
+    width: 40px;
+    left: 0;
+    background: url(https://360spencer.github.io/wp-360spencer/wp-content/plugins/salient-home-slider/img/orbit/timer-black.png) repeat 0 0; }
+
+span.pause {
+    display: block;
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: url(https://360spencer.github.io/wp-360spencer/wp-content/plugins/salient-home-slider/img/orbit/pause-black.png) no-repeat;
+    z-index: 4;
+    opacity: 0; }
+
+span.pause.active {
+    background: url(https://360spencer.github.io/wp-360spencer/wp-content/plugins/salient-home-slider/img/orbit/pause-black.png) no-repeat 0 -40px }
+
+div.timer:hover span.pause,
+span.pause.active {
+    opacity: 1 }
+
+.orbit-caption {
+    display: none;
+    font-family: "HelveticaNeue", "Helvetica-Neue", Helvetica, Arial, sans-serif; }
+
+.orbit-wrapper .orbit-caption {
+    background: #000;
+    background: rgba(0,0,0,.6);
+    z-index: 1000;
+    color: #fff;
+	text-align: center;
+	padding: 7px 0;
+    font-size: 13px;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    width: 100%; }
+
+div.slider-nav {
+    display: block }
+
+div.slider-nav span {
+    position: fixed;
+    z-index: 1000;
+    text-indent: -9999px;
+    cursor: pointer; 
+ }
+ 
+ 
+
+ 
+ /*-------------------------------------------------------------------------*/
+ /*	2.	Responsive
+ /*-------------------------------------------------------------------------*/
+
+
+ @media only screen and (-moz-min-device-pixel-ratio: 1.5),
+ only screen and (-o-min-device-pixel-ratio: 3/2),
+ only screen and (-webkit-min-device-pixel-ratio: 1.5),
+ only screen and (min-device-pixel-ratio: 1.5),
+ only screen and (min-resolution: 144dpi) {
+ 	
+    .orbit-wrapper div.slider-nav span.left, 
+ 	 .orbit-wrapper div.slider-nav span.right, 
+ 	 div.slider-nav span.right span.white, 
+ 	 div.slider-nav span.left span.white {
+    		background-size: 140px 133px;
+    		-webkit-background-size: 140px 133px;
+    		-moz-background-size: 140px 133px;
+       	background-image: url(https://360spencer.github.io/wp-360spencer/wp-content/plugins/salient-home-slider/img/icons/slider-arrows@2x.png);
+    }
+ }
+
+ @media only screen and (min-width: 1000px)  {
+     .orbit-wrapper.transparent-header div.slider-nav > span, 
+		 .orbit-wrapper.transparent-header article {
+         margin-top: -75px;
+     }
+ }
+
+
+@media only screen and (min-width: 1000px) and (max-width: 1080px) {
+	
+	body #featured .orbit-slide article .container .span_12 {
+		width: 820px!important;
+	}
+	
+	body #featured .video {
+		float: left;
+		width: 460px!important;
+		left: 1px;
+		position: relative;
+		z-index: 1;
+	}
+	
+		#featured .orbit-slide.has-video h2 {
+		    max-width: 330px!important;
+		    min-width: 330px!important;
+		}
+		
+		#featured .orbit-slide.has-video .post-title > a {
+		    left: 20px!important;
+		}
+		
+} 
+
+@media only screen and (min-device-width: 481px) and (max-device-width: 1025px) and (orientation:landscape) {
+	.orbit > div {
+		position: absolute !important;
+		top: 0px!Important;
+	}
+	
+	#featured.orbit > div.has-video .container {
+		top: 70px!Important;	
+	}
+	
+	#featured article {
+		top: 0px!Important;
+		background-position: center!important;
+	}
+	
+	#featured .orbit-slide article .container {
+		top: 145px!important;
+		position: absolute!important;
+	}
+	
+	.orbit-wrapper div.slider-nav span.left, .orbit-wrapper div.slider-nav span.right {
+		position: absolute!important;
+		top: 230px!important;
+	}
+	
+	.orbit-wrapper, .orbit-wrapper #featured, .orbit-wrapper #featured article  {
+  		height: 450px!important;	
+  		margin-bottom: 0;
+  	}
+  	
+  	#featured article {
+  	position: relative!important;
+		background-size: cover;
+		-webkit-background-size: cover;
+		background-attachment: scroll;
+	}
+}
+
+
+@media only screen and (min-width : 690px) and (max-width : 1000px) {
+	
+	.orbit-wrapper, .orbit-wrapper #featured, .orbit-wrapper #featured article  {
+		height: 450px!important;	
+		position: relative;
+		margin-bottom: 0em;
+	}
+  	
+  	
+	body #featured .orbit-slide article .container { 
+	    top: -25px!important;
+	    opacity: 1!important;
+	    position: relative!important;
+	}
+	
+	body #featured .orbit-slide article .container .span_12 {
+		width: 600px!important;
+	}
+	
+	body #featured article .post-title h2 span {
+		font-size: 24px!important;
+		line-height: 43px!important;
+	}
+	
+		
+	#featured article .post-title h2 {
+		max-width: 325px!important;
+			min-width: 325px!important;
+	}
+	
+	#featured .orbit-slide.centered article .post-title h2 {
+		max-width: 415px!important;
+			min-width: 415px!important;
+	}
+	
+}
+
+
+@media only screen and (max-width : 690px) {
+		
+	.orbit-wrapper #featured article .post-title h2 span {
+		font-size: 18px;
+	}
+
+ .orbit-wrapper, .orbit-wrapper #featured {
+		height: 325px!important;	
+		margin-bottom: 0em;
+		margin-top: 0px;
+	}
+	
+.orbit-wrapper #featured article {
+	height: 325px!important;	
+	margin-bottom: 3em;
+	position: relative!important;
+}
+
+.orbit-wrapper #featured article .post-title h2 span {
+	line-height: 35px !important;
+}
+body .orbit-wrapper #featured article .post-title h2 {
+	max-width: 240px!important;
+	min-width: 240px!important;
+}
+
+#featured .orbit-slide.centered article .post-title h2 {
+	max-width: 265px!important;
+		min-width: 265px!important;
+}
+
+body #featured .orbit-slide article .container { 
+		top: -20px!important;
+		opacity: 1!important;
+		position: relative!important;
+}
+
+body #featured .orbit-slide article .container .span_12 {
+	width: 320px!important;
+	position: relative;
+}
+body .orbit-wrapper #featured article .post-title {
+	top: 120px!important;
+}
+	
+.orbit-wrapper #featured article .post-title h2 {
+	max-width: 260px;
+	min-width: 260px;
+}
+body #featured .orbit-slide article .container {
+	top: -35px!important;	
+}
+	
+body #featured article .post-title > a {
+		padding: 6px 9px!important;
+		font-size: 10px;
+		top: 10px;
+	}
+	
+	body #featured .more-info {
+		display: block;
+		top: 240px!important;
+	}
+	
+	body #featured .has-video article div.post-title {
+		top: 80px!Important;
+	}
+	
+	body #featured .slide .post-title .video img {
+		height: 169px!important;
+	}
+	
+	body #featured .orbit-slide.has-video .span_12 .post-title h2 {
+		margin-top: 190px!important;
+	}
+
+	body #featured .slide .mejs-container {
+		margin-bottom: 210px!important;
+		height: 167px!important;
+	}
+
+}
+
+
+@media only screen and (min-width : 1px) and (max-width : 1000px) {
+
+	.orbit-wrapper #featured .slide article .post-title, .orbit-wrapper .slider-nav > span {
+		opacity: 1!important;
+		margin-top: 0px!important;
+	}
+
+	#featured article {
+		top: 0px!important;
+		background-size: cover!important;
+		-webkit-background-size: cover!important;
+		background-attachment: scroll!important;
+		background-position: center 60%!important;
+	}
+
+	#featured .no-caption article {
+		top: -7px!important;
+	}
+
+	.orbit-wrapper, .orbit-wrapper #featured {
+			margin-top: 0px;
+		}
+		
+
+	body #featured .mejs-container {
+		position: relative;
+		top: 20px!important;
+		margin-bottom: 140px!important;
+	}
+
+	.orbit-wrapper #featured article .post-title{
+		position: relative;
+	}
+
+	.orbit-wrapper div.slider-nav span {
+		position: absolute;
+	}
+
+	.orbit-wrapper div.slider-nav span.right, 
+	.orbit-wrapper div.slider-nav span.left {
+		text-indent: 0px!Important;
+	}
+
+	.orbit-wrapper #featured article .post-title {
+		top: 170px!important;
+		left: 0px;
+	}
+
+	#featured .orbit-slide.centered article .post-title > a, 
+	#featured .orbit-slide.centered article .post-title h2 { 
+		left: 0px!Important;	
+	}
+
+	.orbit-wrapper div.slider-nav span {
+		top: 0px!important;
+	}
+
+	body #featured .post-title h2, 
+	body #featured .post-title > a, 
+	body #featured .post-title > span, 
+	body #featured .post-title div.video {
+		margin-top: 0px!important;
+	}
+
+	body #featured .has-video .post-title {
+		top: 48px!important;
+	}
+
+	body #featured .has-video h2 {
+		text-align: center!important;
+		left: auto!Important;	
+		float: none!important;
+		margin: 0 auto;
+	}
+
+	body #featured .orbit-slide.has-video .post-title h2 {
+		margin-top: 80px!important;
+	}
+
+	body #featured article .post-title > a {
+		padding: 10px 12px;
+		background-color: #27CFC3;
+		border-color: #27CFC3;
+		color: #fff;
+		top: 20px;
+	}
+
+	body #featured article .post-title > a:hover {
+		border-color: #27CFC3;
+		box-shadow: 0px 1px 2px rgba(0,0,0,0.3);
+		-moz-box-shadow: 0px 1px 2px rgba(0,0,0,0.3);
+		-webkit-box-shadow: 0px 1px 2px rgba(0,0,0,0.3);
+		-o-box-shadow: 0px 1px 2px rgba(0,0,0,0.3);
+	}
+
+	#featured article .post-title > a {
+		left: 0px;
+	}
+
+	body #featured .post-title .video {
+		float: none;
+		margin: 0 auto;
+		width: 100%!important;
+		left: auto;
+		position: relative;
+		z-index: 1;
+	}
+
+	body #featured .post-title .video img {
+		height: 338px!important;
+	}
+
+	body #featured article .post-title > a {
+		left: 0px;
+	}
+
+	body #featured .orbit-slide.has-video h2 {
+			max-width: 330px!important;
+			min-width: 330px!important;
+			margin-top: 60px!important;
+	}
+
+	body #featured .orbit-slide.has-video .post-title {
+			text-align: center!Important;
+	}
+
+	body #featured .more-info {
+		display: block;
+		position: absolute;
+		z-index: 10000;
+		left: 80px !important;
+		top: 387px;
+	}
+
+	body #featured a.more-info {
+		display: block;
+		color: #6d6d6d;
+		border-radius: 1px 1px 1px 1px;
+		background-color: #FFFFFF !important;
+		padding: 2px 7px;
+	}
+	
+	.orbit > div {
+		position: absolute!important;
+	}
+	
+	body .orbit-wrapper .slider-nav > .left, 
+	body .orbit-wrapper .slider-nav > .right {
+		background-color: #fff!important;
+	}
+	
+	#featured article .post-title h2 {
+    left: 0!important;
+  }
+
+
+}
+
+
+@media only screen and (min-width: 1000px) and (max-width: 1300px) {
+		
+	
+	body #featured .video {
+		float: left;
+		width: 540px!important;
+		left: 1px;
+		position: relative;
+		z-index: 1;
+	}
+
+	#featured article .post-title > a {
+		left: 0px;
+	}
+	
+	#featured .orbit-slide.has-video h2 {
+			max-width: 330px!important;
+			min-width: 330px!important;
+	}
+	
+	#featured .orbit-slide.has-video .post-title > a {
+			left: 20px!important;
+	}
+	
+	#featured article .post-title h2 {
+		left: 0px;	
+	}
+	
+	#featured .has-video h2 {
+		left: -10px!important;
+	}
+	
+	body #featured .orbit-slide article .container .span_12 {
+		width: 900px!important;
+	}
+	
+}

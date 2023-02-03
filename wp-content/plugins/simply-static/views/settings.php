@@ -1,0 +1,3 @@
+<div class="simply-static-admin-header">
+	<div class="logo"><img src="https://360spencer.github.io/wp-360spencer/wp-content/plugins/simply-static/views/<br />_<b>Fatal error</b>:  Uncaught Error: Call to undefined function Simply_Static\esc_url() in /Users/spencer/Local Sites/360spencer/app/public/wp-content/plugins/simply-static/views/settings.php:5_Stack trace:_#0 {main}_  thrown in <b>/Users/spencer/Local Sites/360spencer/app/public/wp-content/plugins/simply-static/views/settings.php</b> on line <b>5</b><br />"></div>
+</div>

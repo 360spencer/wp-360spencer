@@ -1,0 +1,2 @@
+<br>
+<b>Fatal error</b>:  Trait &quot;GuzzleHttp\Psr7\MessageTrait&quot; not found in <b>/Users/spencer/Local Sites/360spencer/app/public/wp-content/plugins/updraftplus/vendor/guzzlehttp/psr7/src/Response.php</b> on line <b>11</b><br>
