@@ -1,0 +1,75 @@
+/*
+Theme Name:  Salient
+Description: Styles for the "Food Item" page builder element.
+*/
+
+body .nectar_food_menu_item,
+body .tabbed .nectar_food_menu_item{
+  margin-bottom:30px
+}
+body .nectar_food_menu_item .inner{
+  display:-webkit-box;
+  display:-webkit-flex;
+  display:-ms-flexbox;
+  display:flex
+}
+.span_12.light .nectar_food_menu_item .line_spacer{
+  border-color:#fff
+}
+.tabbed > .wpb_tab:not(.visible-tab) {
+  display: none;
+	visibility: hidden;
+	position: absolute;
+	opacity: 0;
+	left: -9999px;
+}
+.nectar_food_menu_item h3, .nectar_food_menu_item h4,
+.nectar_food_menu_item h5, .nectar_food_menu_item h6,
+.row .col .nectar_food_menu_item h3, .row .col .nectar_food_menu_item h4,
+.row .col .nectar_food_menu_item h5, .row .col .nectar_food_menu_item h6 {
+  margin-bottom:0;
+  line-height:21px
+}
+.nectar_food_menu_item[data-style="default"] .line_spacer{
+  visibility:hidden
+}
+.nectar_food_menu_item .line_spacer{
+  border-bottom:1px solid #000;
+  -webkit-box-flex:1;
+  -webkit-flex:1 1 auto;
+  -ms-flex:1 1 auto;
+  flex:1 1 auto
+}
+.nectar_food_menu_item .item_price{
+  -webkit-box-flex:0;
+  -webkit-flex:0 1 auto;
+  -ms-flex:0 1 auto;
+  flex:0 1 auto;
+  padding-left:10px;
+  text-align:left
+}
+.nectar_food_menu_item .item_name{
+  padding-right:10px;
+  -webkit-box-flex:0;
+  -webkit-flex:0 1 auto;
+  -ms-flex:0 1 auto;
+  flex:0 1 auto
+}
+.nectar_food_menu_item .inner{
+  transition:transform 0.6s cubic-bezier(0,0.2,0.22,1),opacity 0.6s cubic-bezier(0,0.2,0.22,1);
+  transform:translateY(50px);
+  opacity:0
+}
+.nectar_food_menu_item .item_description{
+  margin-top:10px;
+  transition:transform 0.6s cubic-bezier(0,0.2,0.22,1) 0.1s,opacity 0.6s cubic-bezier(0,0.2,0.22,1) 0.1s;
+  transform:translateY(50px);
+  opacity:0
+}
+.nectar_food_menu_item.animated-in .item_description,
+.nectar_food_menu_item.animated-in .inner{
+  -ms-transform:translateY(0);
+  -webkit-transform:translateY(0);
+  transform:translateY(0);
+  opacity:1
+}

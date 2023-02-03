@@ -1,0 +1,33 @@
+/*
+Theme Name:  Salient
+Description: Header Layout set to "Menu Left Aligned" in theme options
+*/
+
+/* Left Aligned Menu */
+#header-outer[data-format="menu-left-aligned"] .row .col.span_3{
+  margin-right:25px
+}
+#header-outer[data-format="menu-left-aligned"] .row .col.span_9{
+  float:left
+}
+#header-outer[data-format="menu-left-aligned"] .row .right-aligned-menu-items{
+  float:right
+}
+#header-outer[data-format="menu-left-aligned"] #top nav .buttons li.nectar-megamenu-menu-item {
+	position: static;
+}
+
+body[data-header-search="false"][data-user-set-ocm="off"] #header-outer[data-lhe="animated_underline"][data-format="menu-left-aligned"][data-cart="false"] #top nav >.buttons >li:last-child >a,
+body.ascend #header-outer[data-full-width="true"][data-format="menu-left-aligned"][data-has-buttons="no"] #top nav >.buttons{
+  margin-right:0
+}
+
+@media only screen and (min-width: 1000px) {
+  #header-outer[data-format="menu-left-aligned"] .row .right-aligned-menu-items {
+    float: none;
+    margin-left: auto;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+  }
+}

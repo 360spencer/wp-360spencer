@@ -1,0 +1,43 @@
+/*
+  Theme Name:  Salient
+  Description: "BuddyPress" plugin basic Salient integration
+*/
+
+body #buddypress form.bp-dir-search-form button[type="submit"] {
+  padding: 10px .7em!important;
+}
+.material .buddypress-wrap form.bp-dir-search-form input[type="search"]:focus {
+  box-shadow: none;
+}
+.buddypress-wrap form.bp-dir-search-form button[type=submit] span {
+  line-height: 1em;
+}
+body[data-form-style="minimal"] #buddypress input[type="text"], 
+body[data-form-style="minimal"] #buddypress input[type="password"], 
+body[data-form-style="minimal"] #buddypress input[type="email"] {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+#buddypress input[type=submit]:hover {
+  color: #fff;
+}
+#buddypress .activity-update-form #whats-new-submit input[type=submit] {
+  line-height: 1em;
+}
+body[data-form-style="minimal"] #buddypress textarea {
+  background-color: rgba(0,0,0,0.018);
+  border-radius: 4px;
+  border: 1px solid rgba(0,0,0,0.05);
+  padding: 10px;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.buddypress-wrap .bp-feedback.bp-messages p {
+  padding-bottom: 0;
+}
+#buddypress form#whats-new-form textarea{
+  width:100%!important
+}
+.buddypress h1{
+  margin-bottom:30px
+}

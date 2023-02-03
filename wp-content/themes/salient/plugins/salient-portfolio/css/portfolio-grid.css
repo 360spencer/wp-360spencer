@@ -1,0 +1,43 @@
+/* Basic column system */
+.row {
+	position: relative;
+}
+
+.row:after, .col:after, .clr:after, .group:after { 
+	content: ""; 
+	display: block; 
+	height: 0; 
+	clear: both; 
+	visibility: hidden; 
+}
+
+.row, div.clear { 
+	padding-bottom: 24px; 
+} 
+
+.col {
+	position: relative;
+	display: block;
+	float: left;
+	width: 100%; 
+}
+
+@media (min-width: 690px) {
+	.col {
+		margin-right: 2%; 
+	} 
+}
+
+.col.col_last { 
+	margin-right: 0; 
+} 
+
+.col:last-child { 
+	margin-right: 0; 
+} 
+
+@media (min-width: 690px) {
+	.span_3 { width: 23.5%; }
+	.span_9 { width: 74.5%; }
+}
+

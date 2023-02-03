@@ -1,0 +1,449 @@
+/*
+Theme Name:  Salient
+Description: Styles for the "Tabs" page builder element.
+*/
+
+.tabbed >ul,
+.wpb_content_element .tabbed .wpb_tabs_nav {
+    margin-left:0px;
+    margin-bottom:17px
+}
+ .tabbed >ul li{
+    float:left;
+     position:relative;
+     list-style:none;
+     margin:0px
+}
+ .tabbed >ul:after{
+    content:"";
+     display:block;
+     height:0;
+     clear:both;
+     visibility:hidden
+}
+ .tabbed >ul li a{
+    display:block;
+     color:#888;
+     position:relative;
+     background-color:rgba(0,0,0,0.045);
+     padding:8px 15px;
+     transition:all 0.3s cubic-bezier(0.12,0.75,0.4,1);
+     border-left:0px;
+     border-right:1px solid rgba(0,0,0,0.06)
+}
+ .tabbed >ul li a svg {
+     fill: #888;
+}
+ .tabbed >ul li:hover,
+ body .wpb_content_element .wpb_tabs_nav li,
+ body .wpb_content_element .wpb_tabs_nav li:hover{
+    background-color:transparent
+}
+ .tabbed .clear{
+    display:block!important;
+     padding-bottom:0px
+}
+ .tabbed > ul li a:hover{
+    background-color:rgba(0,0,0,0.035)
+}
+ .tabbed > ul li:last-child a{
+    border-color:transparent
+}
+ .tabbed > ul li .active-tab{
+    color:#fff;
+}
+ .tabbed >ul li .active-tab svg {
+     fill: #fff;
+}
+ .light .tabbed >ul li:last-child a,
+ .light .tabbed >ul li a{
+    border-color:rgba(0,0,0,0.2)
+}
+ .light .tabbed >ul li a{
+    background-color:rgba(0,0,0,0.15)
+}
+ .tabbed .wpb_tab{
+    opacity:0
+}
+ body .tabbed > div {
+    padding:0px;
+     margin-bottom:0px;
+     background-color:transparent
+}
+body .wpb_content_element .wpb_tour_tabs_wrapper .wpb_tab {
+    padding:0px;
+    background-color:transparent
+}
+ .tabbed .wpb_tab{
+    position:absolute;
+    width: 100%;
+    left: -9999px;
+    top: 0;
+    visibility: hidden;
+}
+ .tabbed >div:first-of-type{
+    position:relative
+}
+body .row .tabbed >div:first-of-type{
+   display: block;
+   opacity: 1;
+   visibility: visible;
+ 	position: relative;
+ 	left: 0;
+}
+ .tabbed div.wp-video .mejs-mediaelement{
+    position:absolute
+}
+ .tabbed div.wp-video .mejs-inner{
+    position:static
+}
+ .wpb_tabs_nav .cta-button{
+    position:absolute;
+     right:0;
+     top:0
+}
+ .tabbed[data-alignment="right"] .wpb_tabs_nav .cta-button{
+    left:0;
+     right:auto
+}
+ .wpb_tabs_nav .cta-button a{
+    visibility:visible;
+    margin-bottom:0;
+}
+.wpb_tabs_nav .cta-button .nectar-button {
+  color: #fff;
+}
+ .wpb_tabs_nav .cta-button a:after{
+    display:none!important
+}
+ .tabbed .wpb_tab > .tab-icon {
+     display: none;
+}
+ .tabbed[data-alignment="center"] .wpb_tabs_nav li,
+ .tabbed[data-alignment="right"] .wpb_tabs_nav li{
+    float:none;
+     display:inline-block
+}
+ .tabbed[data-alignment="center"] .wpb_tabs_nav{
+    text-align:center
+}
+ .tabbed[data-alignment="right"] .wpb_tabs_nav{
+    text-align:right
+}
+ .tabbed[data-style="minimal"] .wpb_tabs_nav{
+    border-bottom:1px solid #e1e1e1;
+     line-height:0px;
+     margin-bottom:65px;
+     position:relative
+}
+ .tabbed[data-style="minimal"] >ul li:not(.cta-button) a,
+ .tabbed[data-style="minimal"] >ul li:not(.cta-button) .active-tab,
+ .tabbed[data-style="minimal_alt"] >ul li:not(.cta-button) a,
+ .tabbed[data-style="minimal_alt"] >ul li:not(.cta-button) .active-tab{
+    background-color:transparent;
+     border-right:none;
+     position:relative;
+     color:inherit;
+     z-index:10;
+     padding:18px 17px;
+     line-height:32px;
+     margin-bottom:-1px;
+     overflow-y:hidden;
+     transition:all 0.3s cubic-bezier(0.12,0.75,0.4,1);
+}
+ .tabbed[data-style="minimal"] >ul li:not(.cta-button) a svg,
+ .tabbed[data-style="minimal"] >ul li:not(.cta-button) .active-tab svg {
+     fill: currentColor;
+}
+ .tabbed[data-style="minimal"] >ul li a:hover{
+    opacity:0.7
+}
+ .tabbed[data-style*="minimal"] >ul li a:after{
+     height:4px;
+     width:100%;
+     content:' ';
+     background-color:#000;
+     display:block;
+     position:absolute;
+     bottom:-4px;
+     left:0;
+     z-index:10;
+     transition:transform 0.3s cubic-bezier(0.12,0.75,0.4,1);
+}
+ .tabbed[data-style="minimal"] >ul li .active-tab{
+    opacity:1
+}
+ .tabbed[data-style*="minimal"] >ul li .active-tab:after{
+    transform:translateY(-3px);
+}
+
+
+ .tabbed[data-style*="vertical"] .wpb_tabs_nav{
+    width:20%;
+     float:left
+}
+ .tabbed[data-style*="vertical"] >div{
+    float:left;
+     width:80%;
+     padding-left:40px;
+     right: 0;
+}
+ body .tabbed[data-style*="vertical"] .wpb_tabs_nav li {
+     white-space:normal;
+}
+ @media only screen and (min-width: 1000px) and (max-width: 1300px) {
+     .tabbed[data-style*="vertical"] .wpb_tabs_nav{
+        width:25%;
+    }
+     .tabbed[data-style*="vertical"] >div{
+         width:65%;
+    }
+}
+
+ .tabbed[data-style*="vertical"] .wpb_tabs_nav li{
+    float:none;
+}
+ .tabbed[data-style*="vertical"] .wpb_tabs_nav li a{
+    border-right:none
+}
+
+
+ .tabbed > .wpb_tabs_nav li i{
+     transition: color 0.3s cubic-bezier(0.12,0.75,0.4,1);
+     margin-right: 10px;
+}
+ .tabbed > .wpb_tabs_nav li svg {
+     transition: all 0.3s cubic-bezier(0.12,0.75,0.4,1);
+     margin-right: 10px;
+     vertical-align: middle;
+}
+ .tabbed[data-style="default"] > .wpb_tabs_nav li i,
+ .tabbed[data-style="vertical"] > .wpb_tabs_nav li i {
+     transition: none;
+}
+ .tabbed[data-style*="minimal"] .wpb_tabs_nav li i,
+ .tabbed[data-style*="minimal"] .wpb_tabs_nav li svg {
+     display: block;
+     text-align: center;
+     margin: 0 0 8px 0;
+     font-size: 32px;
+}
+
+ .tabbed[data-style*="default"][data-color-scheme="extra-color-gradient-1"] .wpb_tabs_nav li a:before,
+ .tabbed[data-style*="default"][data-color-scheme="extra-color-gradient-2"] .wpb_tabs_nav li a:before,
+ .tabbed[data-style*="vertical"][data-color-scheme="extra-color-gradient-1"] .wpb_tabs_nav li a:before,
+ .tabbed[data-style*="vertical"][data-color-scheme="extra-color-gradient-2"] .wpb_tabs_nav li a:before {
+     background-color: #000;
+     display: block;
+     left: 0;
+     width: 100%;
+     position: absolute;
+     content: '';
+     height: 1px;
+     opacity: 0.25;
+     visibility: visible;
+}
+
+ .tabbed[data-style*="default"][data-color-scheme="extra-color-gradient-1"] .wpb_tabs_nav li .active-tab,
+ .tabbed[data-style*="default"][data-color-scheme="extra-color-gradient-2"] .wpb_tabs_nav li .active-tab,
+ .tabbed[data-style*="vertical"][data-color-scheme="extra-color-gradient-1"] .wpb_tabs_nav li .active-tab,
+ .tabbed[data-style*="vertical"][data-color-scheme="extra-color-gradient-2"] .wpb_tabs_nav li .active-tab {
+     background-color: transparent;
+}
+
+ .tabbed[data-style*="default"][data-color-scheme="extra-color-gradient-1"] .wpb_tabs_nav li a:before,
+ .tabbed[data-style*="default"][data-color-scheme="extra-color-gradient-2"] .wpb_tabs_nav li a:before,
+ .tabbed[data-style*="vertical"][data-color-scheme="extra-color-gradient-1"] .wpb_tabs_nav li a:before,
+ .tabbed[data-style*="vertical"][data-color-scheme="extra-color-gradient-2"] .wpb_tabs_nav li a:before {
+     height: 100%;
+     top: 0;
+     opacity: 0;
+     transition: all 0.3s cubic-bezier(0.12,0.75,0.4,1);
+     z-index: -1;
+}
+ .tabbed[data-style*="default"][data-color-scheme="extra-color-gradient-1"] ul li .active-tab:before,
+ .tabbed[data-style*="default"][data-color-scheme="extra-color-gradient-2"] ul li .active-tab:before,
+ .tabbed[data-style*="vertical"][data-color-scheme="extra-color-gradient-1"] ul li .active-tab:before,
+ .tabbed[data-style*="vertical"][data-color-scheme="extra-color-gradient-2"] ul li .active-tab:before {
+     opacity: 1;
+}
+ .tabbed[data-style*="default"][data-color-scheme="extra-color-gradient-1"] ul li .active-tab,
+ .tabbed[data-style*="default"][data-color-scheme="extra-color-gradient-2"] ul li .active-tab {
+     border-color: transparent;
+}
+
+ .tabbed[data-style*="minimal"] .wpb_tabs_nav li svg {
+   margin: 0 auto 8px auto
+ }
+
+ 
+
+.light .tabbed[data-style="minimal_flexible"] .wpb_tabs_nav > li a.active-tab svg,
+.light .tabbed[data-style*="material"] .wpb_tabs_nav > li a:hover svg {
+  fill: #fff;
+}
+
+
+
+ .tabbed .wpb_tabs_nav li .im-icon-wrap.tab-icon {
+     line-height: 0;
+}
+ .tabbed[data-icon-size="24"] .wpb_tabs_nav li i{
+     font-size: 24px;
+     line-height: 24px;
+}
+ .tabbed[data-icon-size="26"] .wpb_tabs_nav li i{
+     font-size: 26px;
+     line-height: 26px;
+}
+ .tabbed[data-icon-size="28"] .wpb_tabs_nav li i{
+     font-size: 28px;
+     line-height: 28px;
+}
+ .tabbed[data-icon-size="30"] .wpb_tabs_nav li i{
+     font-size: 30px;
+     line-height: 30px;
+}
+ .tabbed[data-icon-size="32"] .wpb_tabs_nav li i{
+     font-size: 32px;
+     line-height: 32px;
+}
+ .tabbed[data-icon-size="34"] .wpb_tabs_nav li i{
+     font-size: 34px;
+     line-height: 34px;
+}
+ .tabbed[data-icon-size="36"] .wpb_tabs_nav li i{
+     font-size: 36px;
+     line-height: 36px;
+}
+ .tabbed[data-icon-size="24"] .wpb_tabs_nav li svg{
+     height: 24px;
+}
+ .tabbed[data-icon-size="26"] .wpb_tabs_nav li svg{
+     height: 26px;
+}
+ .tabbed[data-icon-size="28"] .wpb_tabs_nav li svg{
+     height: 28px;
+}
+ .tabbed[data-icon-size="30"] .wpb_tabs_nav li svg{
+     height: 30px;
+}
+ .tabbed[data-icon-size="32"] .wpb_tabs_nav li svg{
+     height: 32px;
+}
+ .tabbed[data-icon-size="34"] .wpb_tabs_nav li svg{
+     height: 34px;
+}
+ .tabbed[data-icon-size="36"] .wpb_tabs_nav li svg{
+     height: 36px;
+}
+
+.tabbed[data-style="default"] .wpb_tabs_nav li .im-icon-wrap.tab-icon { margin-right: 10px; }
+.tabbed[data-style="default"] .wpb_tabs_nav li svg,
+.tabbed[data-style="default"] .wpb_tabs_nav li .im-icon-wrap.tab-icon,
+.tabbed[data-style="default"] .wpb_tabs_nav li .im-icon-wrap.tab-icon svg {
+    height: 18px;
+    width: 18px;
+    display: inline-block;
+}
+
+ .tabbed[data-spacing="side-15px"]:not([data-style="vertical"]) .wpb_tabs_nav li a,
+ .tabbed[data-spacing="side-15px"]:not([data-style="vertical"]) .wpb_tabs_nav li .active-tab {
+     padding-left: 17px;
+     padding-right: 17px;
+}
+ .tabbed[data-spacing="side-20px"]:not([data-style="vertical"]) .wpb_tabs_nav li a,
+ .tabbed[data-spacing="side-20px"]:not([data-style="vertical"]) .wpb_tabs_nav li .active-tab {
+     padding-left: 20px;
+     padding-right: 20px;
+}
+ .tabbed[data-spacing="side-25px"]:not([data-style="vertical"]) .wpb_tabs_nav li a,
+ .tabbed[data-spacing="side-25px"]:not([data-style="vertical"]) .wpb_tabs_nav li .active-tab {
+     padding-left: 25px;
+     padding-right: 25px;
+}
+ .tabbed[data-spacing="side-30px"]:not([data-style="vertical"]) .wpb_tabs_nav li a,
+ .tabbed[data-spacing="side-30px"]:not([data-style="vertical"]) .wpb_tabs_nav li .active-tab {
+     padding-left: 30px;
+     padding-right: 30px;
+}
+ .tabbed[data-spacing="side-35px"]:not([data-style="vertical"]) .wpb_tabs_nav li a,
+ .tabbed[data-spacing="side-35px"]:not([data-style="vertical"]) .wpb_tabs_nav li .active-tab {
+     padding-left: 35px;
+     padding-right: 35px;
+}
+ .tabbed[data-spacing="side-40px"]:not([data-style="vertical"]) .wpb_tabs_nav li a,
+ .tabbed[data-spacing="side-40px"]:not([data-style="vertical"]) .wpb_tabs_nav li .active-tab {
+     padding-left:40px;
+     padding-right:40px;
+}
+ .tabbed[data-spacing="side-45px"]:not([data-style="vertical"]) .wpb_tabs_nav li a,
+ .tabbed[data-spacing="side-45px"]:not([data-style="vertical"]) .wpb_tabs_nav li .active-tab {
+     padding-left:45px;
+     padding-right:45px;
+}
+ @media only screen and (max-width : 690px) {
+
+     .tabbed[data-style*="minimal"] > ul li:not(.cta-button) a,
+     .tabbed[data-style*="minimal"] > ul li:not(.cta-button) .active-tab {
+         padding: 20px 15px 5px 15px;
+    }
+     .tabbed[data-style="minimal_alt"] > ul li:not(.cta-button) {
+         margin: 0 10px!important;
+    }
+     .tabbed[data-style="minimal"] .wpb_tabs_nav {
+         border-bottom: none;
+    }
+     .tabbed > ul li {
+         float: none;
+         display: inline-block;
+         border-right: 0px;
+    }
+     .tabbed > ul {
+         float: none;
+    }
+     .tabbed > ul li a {
+         border-right: 0px!important;
+    }
+    
+     .tabbed[data-style*="vertical"] .wpb_tabs_nav {
+         width: 100%;
+    }
+     .tabbed[data-style*="vertical"] .wpb_tabs_nav li {
+         display: inline-block;
+         margin: 5px;
+    }
+}
+ @media only screen and (min-width : 1px) and (max-width : 999px) {
+
+     body .tabbed[data-style="minimal_flexible"] .wpb_tabs_nav {
+       flex-wrap: wrap;
+     }
+
+     .tabbed[data-alignment="right"] .wpb_tabs_nav .cta-button {
+         top: 0;
+         transform: translateY(-100%);
+         left: auto;
+         right: 0;
+    }
+     .tabbed[data-alignment="center"] .wpb_tabs_nav .cta-button {
+         top: 0;
+         transform: translateY(-100%) translateX(-50%);
+         left: 50%;
+         right: auto;
+    }
+     .tabbed[data-style*="vertical"] .wpb_tabs_nav {
+         width: 100%;
+         text-align: center;
+         margin-bottom: 35px!important;
+    }
+     .tabbed[data-style*="vertical"] .wpb_tabs_nav li {
+         display: inline-block;
+         font-size: 12px;
+         margin: 5px;
+    }
+     .tabbed[data-style*="vertical"] >div {
+         width: 100%;
+         padding-left: 0;
+    }
+}

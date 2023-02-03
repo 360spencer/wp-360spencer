@@ -1,0 +1,1 @@
+{"blog-sidebar":{"nectar_popular_posts-2":{"title":"Popular Posts","number_of_posts":3,"timeline":"All Time","orderby":"Highest Views","style":"Hover Featured Image Gradient And Counter"},"recent-posts-extra-2":{"title":"Recent Posts","style":"Featured Image Left","category":"All","number":3}}}

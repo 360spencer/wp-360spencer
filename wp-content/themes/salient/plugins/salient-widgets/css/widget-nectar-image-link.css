@@ -1,0 +1,89 @@
+/*----------------------
+
+	[Table Of Contents]
+
+	1.	Widget Core
+	2.	Hover Effects
+  3.	Content
+
+----------------------- -*/
+
+/*	1.	Widget Core */
+.nectar-image-link-widget {
+  position: relative;
+  overflow: hidden;
+}
+
+.nectar-image-link-widget .link,
+#header-outer #mobile-menu ul li .nectar-image-link-widget .link,
+#slide-out-widget-area[class*="fullscreen"] ul li .nectar-image-link-widget .link {
+  display: flex;
+  position: relative;
+}
+
+/*	2. Hover Effects */
+.nectar-image-link-widget.hover-slow-zoom-bg:hover .bg-layer {
+  transform: scale(1.15);
+  transition: transform 4s cubic-bezier(0.1,0.2,.7,1);
+}
+.nectar-image-link-widget.hover-slow-zoom-bg:hover .color-overlay{
+  transition: opacity 1.5s cubic-bezier(.15,.75,.5,1);
+}
+.nectar-image-link-widget.hover-slow-zoom-bg .bg-layer {
+  transition: transform 0.5s cubic-bezier(.15,.75,.5,1);
+}
+.nectar-image-link-widget.hover-slow-zoom-bg .color-overlay {
+  transition: opacity 0.5s cubic-bezier(.15,.75,.5,1);
+}
+
+.nectar-image-link-widget.hover-zoom-bg:hover .bg-layer {
+  transform: scale(1.12);
+}
+.nectar-image-link-widget.hover-zoom-bg .bg-layer {
+  transition: transform 0.5s cubic-bezier(.15,.75,.5,1);
+}
+
+.nectar-image-link-widget .color-overlay,
+.nectar-image-link-widget .bg-layer {
+  background-size: cover;
+  background-position: center;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.nectar-image-link-widget .color-overlay {
+  transition: opacity 0.5s cubic-bezier(.15,.75,.5,1);
+}
+
+/*	3. Content */
+.nectar-image-link-widget .image-link-content {
+    padding: 30px;
+    width: 100%;
+    display: block;
+}
+
+#header-outer .widget-area-active .nectar-image-link-widget .image-link-content span {
+  line-height: 1.3;
+}
+
+.nectar-image-link-widget .image-link-content .heading  {
+  word-break: normal;
+}
+
+.nectar_widget.nectar-image-link-widget .image-link-content *,
+.widget-area-active .nectar_widget.nectar-image-link-widget .image-link-content *,
+.widget-area-active:hover .nectar_widget.nectar-image-link-widget .image-link-content * {
+  color: inherit;
+}
+
+.nectar-image-link-widget .image-link-content h2,
+.nectar-image-link-widget .image-link-content h3,
+.nectar-image-link-widget .image-link-content h4,
+.nectar-image-link-widget .image-link-content h5,
+.nectar-image-link-widget .image-link-content h6 {
+  margin-bottom: 0.5rem;
+  line-height: 1.2;
+}

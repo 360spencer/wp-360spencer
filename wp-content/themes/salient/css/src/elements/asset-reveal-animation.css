@@ -1,0 +1,192 @@
+/*
+Theme Name:  Salient
+Description: Reveal Animation used by Image, Scrolling Text and Columns
+*/
+
+
+.nectar-scrolling-text .background-layer[data-bg-animation*="reveal-from-"] .inner,
+.img-with-aniamtion-wrap[data-animation*="reveal-from-"] .inner,
+.column-image-bg-wrap[data-bg-animation*="reveal-from-"] .inner-wrap {
+	opacity: 0;
+	overflow: hidden;
+	-webkit-transition: transform 2.3s cubic-bezier(0.2, 0.65, 0.3, 1), opacity 0.25s ease;
+	transition: transform 2.3s cubic-bezier(0.2, 0.65, 0.3, 1), opacity 0.25s ease;
+	will-change: transform, opacity;
+	-webkit-backface-visibility: hidden;
+	border-radius: 0.01%;
+}
+
+.img-with-aniamtion-wrap[data-animation*="reveal-from-"],
+.img-with-aniamtion-wrap[data-animation*="reveal-from-"] .hover-wrap .hover-wrap-inner img.img-with-animation,
+.img-with-aniamtion-wrap[data-animation*="reveal-from-"] .color-overlay,
+.column-image-bg-wrap[data-bg-animation*="reveal-from-"],
+.column-bg-overlay-wrap[data-bg-animation*="reveal-from-"],
+.column-image-bg-wrap[data-bg-animation*="reveal-from-"] .inner-wrap .column-image-bg,
+.column-bg-overlay-wrap[data-bg-animation*="reveal-from-"] > div,
+.nectar-scrolling-text .background-layer[data-bg-animation*="reveal-from-"] .background-image {
+	-webkit-transition: transform 2.3s cubic-bezier(0.2, 0.65, 0.3, 1), opacity .65s cubic-bezier(.2,1,.2,1);
+	transition: transform 2.3s cubic-bezier(0.2, 0.65, 0.3, 1), opacity .65s cubic-bezier(.2,1,.2,1);
+	will-change: transform;
+	-webkit-backface-visibility: hidden;
+}
+
+.img-with-aniamtion-wrap[data-animation*="reveal-from-"].animated-in,
+.revealed-bg .column-image-bg-wrap[data-bg-animation*="reveal-from-"],
+.revealed-bg .column-bg-overlay-wrap[data-bg-animation*="reveal-from-"] {
+	-webkit-transform: translate3d(0,0,0);
+	transform: translate3d(0,0,0);
+}
+
+.img-with-aniamtion-wrap[data-animation*="reveal-from-"].animated-in .inner,
+.revealed-bg .column-image-bg-wrap[data-bg-animation*="reveal-from-"] .inner-wrap,
+.revealed-bg .column-bg-overlay-wrap[data-bg-animation*="reveal-from-"],
+.revealed-bg .column-bg-overlay-wrap[data-bg-animation*="reveal-from-"] > div {
+	-webkit-transform: rotate(0deg) translateZ(0);
+	transform: rotate(0deg) translateZ(0);
+	opacity: 1;
+}
+
+.nectar-scrolling-text .background-layer[data-bg-animation*="reveal-from-"].animated-in .inner {
+	-webkit-transform: rotate(0deg) translate3d(0,0,0);
+	transform: rotate(0deg) translate3d(0,0,0);
+	opacity: 1;
+}
+
+.nectar-scrolling-text .background-layer[data-bg-animation*="reveal-from-"].animated-in .background-image,
+.img-with-aniamtion-wrap[data-animation*="reveal-from-"].animated-in .hover-wrap .hover-wrap-inner img.img-with-animation,
+.img-with-aniamtion-wrap[data-animation*="reveal-from-"].animated-in .color-overlay,
+.revealed-bg .column-image-bg-wrap[data-bg-animation*="reveal-from-"] .inner-wrap .column-image-bg {
+	-webkit-transform: rotate(0deg) translateZ(0);
+	transform: rotate(0deg) translateZ(0);
+}
+
+
+
+/* reveal left */
+.img-with-aniamtion-wrap[data-animation="ro-reveal-from-left"],
+.column-image-bg-wrap[data-bg-animation="ro-reveal-from-left"],
+.column-bg-overlay-wrap[data-bg-animation="ro-reveal-from-left"] {
+	-webkit-transform: translate3d(-250px,0,0);
+	transform: translate3d(-250px,0,0);
+}
+
+.img-with-aniamtion-wrap[data-animation="ro-reveal-from-left"] .inner,
+.column-image-bg-wrap[data-bg-animation="ro-reveal-from-left"] .inner-wrap,
+.column-bg-overlay-wrap[data-bg-animation="ro-reveal-from-left"] > div {
+  -webkit-transform: rotate(-25deg) translateZ(0);
+	transform: rotate(-25deg) translateZ(0);
+	transform-origin: right bottom;
+}
+
+.nectar-scrolling-text .background-layer[data-bg-animation="ro-reveal-from-left"] .inner {
+	-webkit-transform: translate3d(-250px,0,0) rotate(-25deg);
+	transform: translate3d(-250px,0,0) rotate(-25deg);
+	transform-origin: right bottom;
+}
+
+.img-with-aniamtion-wrap[data-animation="ro-reveal-from-left"] .hover-wrap .hover-wrap-inner img.img-with-animation,
+.img-with-aniamtion-wrap[data-animation="ro-reveal-from-left"] .color-overlay,
+.column-image-bg-wrap[data-bg-animation="ro-reveal-from-left"] .inner-wrap .column-image-bg,
+.nectar-scrolling-text .background-layer[data-bg-animation="ro-reveal-from-left"] .background-image {
+  -webkit-transform: rotate(25deg) translateZ(0);
+	transform: rotate(25deg) translateZ(0);
+	transform-origin: right bottom;
+}
+
+
+/* reveal right */
+.img-with-aniamtion-wrap[data-animation="ro-reveal-from-right"],
+.column-image-bg-wrap[data-bg-animation="ro-reveal-from-right"],
+.column-bg-overlay-wrap[data-bg-animation="ro-reveal-from-right"] {
+  -webkit-transform: translate3d(250px,0,0);
+	transform: translate3d(250px,0,0);
+	transform-origin: left bottom;
+}
+
+.img-with-aniamtion-wrap[data-animation="ro-reveal-from-right"] .inner,
+.column-image-bg-wrap[data-bg-animation="ro-reveal-from-right"] .inner-wrap,
+.column-bg-overlay-wrap[data-bg-animation="ro-reveal-from-right"] > div {
+  -webkit-transform: rotate(25deg) translateZ(0);
+	transform: rotate(25deg) translateZ(0);
+	transform-origin: left bottom;
+}
+
+.nectar-scrolling-text .background-layer[data-bg-animation="ro-reveal-from-right"] .inner {
+	-webkit-transform: translate3d(250px,0,0) rotate(25deg);
+	transform: translate3d(250px,0,0) rotate(25deg);
+	transform-origin: left bottom;
+}
+
+.img-with-aniamtion-wrap[data-animation="ro-reveal-from-right"] .hover-wrap .hover-wrap-inner img.img-with-animation,
+.img-with-aniamtion-wrap[data-animation="ro-reveal-from-right"] .color-overlay,
+.column-image-bg-wrap[data-bg-animation="ro-reveal-from-right"] .inner-wrap .column-image-bg,
+.nectar-scrolling-text .background-layer[data-bg-animation="ro-reveal-from-right"] .background-image {
+  -webkit-transform: rotate(-25deg) translateZ(0);
+	transform: rotate(-25deg) translateZ(0);
+	transform-origin: left bottom;
+}
+
+
+/* reveal bottom */
+.img-with-aniamtion-wrap[data-animation="ro-reveal-from-bottom"],
+.column-image-bg-wrap[data-bg-animation="ro-reveal-from-bottom"],
+.column-bg-overlay-wrap[data-bg-animation="ro-reveal-from-bottom"] {
+	-webkit-transform: translate3d(0,250px,0);
+	transform: translate3d(0,250px,0);
+}
+
+.img-with-aniamtion-wrap[data-animation="ro-reveal-from-bottom"] .inner,
+.column-image-bg-wrap[data-bg-animation="ro-reveal-from-bottom"] .inner-wrap,
+.column-bg-overlay-wrap[data-bg-animation="ro-reveal-from-bottom"] > div {
+  -webkit-transform: rotate(25deg) translateZ(0);
+	transform: rotate(25deg) translateZ(0);
+	transform-origin: left bottom;
+}
+
+.nectar-scrolling-text .background-layer[data-bg-animation="ro-reveal-from-bottom"] .inner {
+	-webkit-transform: translate3d(0,250px,0) rotate(25deg) ;
+	transform: translate3d(0,250px,0) rotate(25deg) ;
+	transform-origin: left bottom;
+}
+
+.img-with-aniamtion-wrap[data-animation="ro-reveal-from-bottom"] .hover-wrap .hover-wrap-inner img.img-with-animation,
+.img-with-aniamtion-wrap[data-animation="ro-reveal-from-bottom"] .color-overlay,
+.column-image-bg-wrap[data-bg-animation="ro-reveal-from-bottom"] .inner-wrap .column-image-bg,
+.nectar-scrolling-text .background-layer[data-bg-animation="ro-reveal-from-bottom"] .background-image {
+  -webkit-transform: rotate(-25deg) translateZ(0);
+	transform: rotate(-25deg) translateZ(0);
+	transform-origin: left bottom;
+}
+
+
+/* reveal top */
+.img-with-aniamtion-wrap[data-animation="ro-reveal-from-top"],
+.column-image-bg-wrap[data-bg-animation="ro-reveal-from-top"],
+.column-bg-overlay-wrap[data-bg-animation="ro-reveal-from-top"] {
+	-webkit-transform: translate3d(0,-250px,0);
+	transform: translate3d(0,-250px,0);
+}
+
+
+.img-with-aniamtion-wrap[data-animation="ro-reveal-from-top"] .inner,
+.column-image-bg-wrap[data-bg-animation="ro-reveal-from-top"] .inner-wrap,
+.column-bg-overlay-wrap[data-bg-animation="ro-reveal-from-top"] > div {
+  -webkit-transform: rotate(-25deg) translateZ(0);
+	transform: rotate(-25deg) translateZ(0);
+	transform-origin: left top;
+}
+
+.nectar-scrolling-text .background-layer[data-bg-animation="ro-reveal-from-top"] .inner {
+	-webkit-transform: translate3d(0,-250px,0) rotate(-25deg) ;
+	transform: translate3d(0,-250px,0) rotate(-25deg) ;
+	transform-origin: left top;
+}
+
+.img-with-aniamtion-wrap[data-animation="ro-reveal-from-top"] .hover-wrap .hover-wrap-inner img.img-with-animation,
+.img-with-aniamtion-wrap[data-animation="ro-reveal-from-top"] .color-overlay,
+.column-image-bg-wrap[data-bg-animation="ro-reveal-from-top"] .inner-wrap .column-image-bg,
+.nectar-scrolling-text .background-layer[data-bg-animation="ro-reveal-from-top"] .background-image {
+  -webkit-transform: rotate(25deg) translateZ(0);
+	transform: rotate(25deg) translateZ(0);
+	transform-origin: left top;
+}

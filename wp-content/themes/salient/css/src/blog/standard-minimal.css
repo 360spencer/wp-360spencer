@@ -1,0 +1,293 @@
+/*
+Theme Name:  Salient
+Description: Styles for the "Standard Minimal" post style.
+*/
+
+
+.post-area.standard-minimal.full-width-content .post .inner-wrap	{
+	margin: 0 auto;
+	position: relative;
+}
+
+
+.post-area.standard-minimal.full-width-content .post .inner-wrap {
+    max-width: 880px;
+}
+
+
+.post-area.standard-minimal .post-author{
+    position:absolute;
+     left:0;
+     top:0;
+     text-align:center;
+     width:100px;
+     font-size:12px;
+     line-height:22px
+}
+ .post-area.standard-minimal.full-width-content .post{
+    border-bottom:1px solid #e6e6e6;
+     padding-top:70px
+}
+ .post-area.standard-minimal.full-width-content .posts-container >article:last-child{
+    border:none
+}
+ .post-area.standard-minimal.full-width-content .post .content-inner{
+    padding-bottom:0;
+     margin-bottom:70px;
+     border-bottom: 0;
+}
+ .post-area.standard-minimal.full-width-content .post .more-link{
+    margin-top:25px
+}
+ .post-area.standard-minimal.full-width-content #pagination{
+    text-align:center
+}
+ .post-area.standard-minimal.full-width-content #pagination >div{
+    float:none;
+     display:inline-block
+}
+ .post-area.standard-minimal .post .more-link span{
+    background-color:transparent;
+     padding:0;
+     color:#333
+}
+ .post-area.standard-minimal .post .post-header, 
+ .post-area.standard-minimal .post .content-inner .post-featured-img img, 
+ .post-area.standard-minimal .post .content-inner .article-content-wrap >.video >.wp-video, 
+ .post-area.standard-minimal .post .content-inner .article-content-wrap .audio-wrap, 
+ .post-area.standard-minimal .post .content-inner .quote-inner{
+     margin-bottom:60px!important
+}
+ .post-area.standard-minimal .post .content-inner .quote-inner h3 {
+    color:#fff;
+     margin-bottom:20px
+}
+ .post-area.standard-minimal .post .content-inner .quote-inner, 
+ .post-area.standard-minimal .post .content-inner .link-inner{
+     padding:10%;
+     position: relative;
+}
+.post-area.standard-minimal .quote-wrap,
+.post-area.standard-minimal .link-wrap {
+  z-index: 100;
+  position: relative;
+}
+ .post-area.standard-minimal .post.quote .post-content .quote-inner .icon, 
+ .post-area.standard-minimal .post.link .post-content .link-inner .icon{
+    right:30px;
+     bottom:30px
+}
+ .post-area.standard-minimal .post .content-inner .quote-inner .author{
+    position:relative;
+     padding-left:30px
+}
+ .post-area.standard-minimal .post .content-inner .quote-inner .author:before{
+     position:absolute;
+     display:block;
+     top:50%;
+     left:0;
+     width:20px;
+     height:2px;
+     content:' ';
+     -ms-transform:translateY(-50%);
+     -webkit-transform:translateY(-50%);
+     transform:translateY(-50%);
+     background-color:#fff
+}
+
+ .post-area.standard-minimal .post .more-link{
+     display:inline-block;
+     cursor:pointer;
+     height:50px;
+     position:relative;
+     line-height:50px;
+     padding-right:25px
+}
+ .post-area.standard-minimal .post .more-link span{
+     transition:all 0.25s cubic-bezier(0.12,0.75,0.4,1);
+     -webkit-transition:all 0.25s cubic-bezier(0.12,0.75,0.4,1)
+}
+ .post-area.standard-minimal .post .more-link span:after {
+     display:inline-block;
+     font-family:'icomoon'!important;
+     speak:none;
+     font-style:normal;
+     font-weight:normal;
+     font-variant:normal;
+     text-transform:none;
+     line-height:50px;
+     height:50px;
+     -webkit-font-smoothing:antialiased;
+     letter-spacing:0;
+     content:"\e607";
+     margin-left:15px;
+     position:absolute;
+     right:0;
+     top:53%;
+     -webkit-transform:translateY(-50%) translateZ(0);
+     transform:translateY(-50%) translateZ(0);
+     font-size:25px;
+     transition:opacity 0.25s cubic-bezier(0.12,0.75,0.4,1),transform 0.25s cubic-bezier(0.12,0.75,0.4,1);
+     -webkit-transition:opacity 0.25s cubic-bezier(0.12,0.75,0.4,1),-webkit-transform 0.25s cubic-bezier(0.12,0.75,0.4,1) 
+}
+ .post-area.standard-minimal .post .more-link:hover span:after{
+     transform:translateX(12px) translateY(-50%);
+     -webkit-transform:translateX(12px) translateY(-50%)
+}
+ .post-area.standard-minimal .post .more-link:hover span:before{
+    opacity:1;
+     transform:translateY(-50%) translateX(0px);
+     -webkit-transform:translateY(-50%) translateX(0px)
+}
+ .post-area.standard-minimal .post .more-link span:before {
+     backface-visibility:hidden;
+     letter-spacing:0;
+     display:block;
+     content:' ';
+     z-index:100;
+     position:absolute;
+     width:22px;
+     height:2px;
+     background-color:#000;
+     top:53%;
+     opacity:0;
+     right:-10px;
+     cursor:pointer;
+     transform:translateY(-50%) translateX(-20px) translateZ(0);
+     -webkit-transform:translateY(-50%) translateX(-20px) translateZ(0);
+     transition:opacity 0.25s cubic-bezier(0.12,0.75,0.4,1),transform 0.25s cubic-bezier(0.12,0.75,0.4,1);
+     -webkit-transition:opacity 0.25s cubic-bezier(0.12,0.75,0.4,1),-webkit-transform 0.25s cubic-bezier(0.12,0.75,0.4,1)
+}
+ .post-area.standard-minimal .post .post-meta .date, 
+ .post-area.standard-minimal .post .more-link span{
+    font-family:'Open Sans';
+     font-weight:700;
+     margin-bottom:5px;
+     font-size:14px
+}
+ .post-area.standard-minimal .post .post-meta .date a{
+    display:block
+}
+ .post-area.standard-minimal .post .article-content-wrap .meta-comment-count a, 
+ .post-area.standard-minimal .post .article-content-wrap .meta-comment-count a span, 
+ .post-area.standard-minimal .post .article-content-wrap .nectar-love, 
+ .post-area.standard-minimal .post .article-content-wrap .nectar-love >span, 
+ .post-area.standard-minimal .post .article-content-wrap .meta-comment-count i, 
+ .post-area.standard-minimal .post .article-content-wrap .nectar-love i, 
+ .post-area.standard-minimal .post .article-content-wrap .meta-comment-count, 
+ .post-area.standard-minimal .post .article-content-wrap .nectar-love-wrap, 
+ .post-area.standard-minimal .post .article-content-wrap .nectar-love-wrap >span, 
+ .post-area.standard-minimal .post .article-content-wrap .meta-category i{
+    line-height:34px;
+    height:34px;
+    width:auto;
+    display:inline-block
+}
+ .post-area.standard-minimal .post .more-link{
+    margin-top:15px
+}
+ .post-area.standard-minimal .post .article-content-wrap .meta-category i{
+    font-size:20px
+}
+ .post-area.standard-minimal .post .article-content-wrap .nectar-love >span{
+    font-size:14px;
+     color:#aaa
+}
+ .post-area.standard-minimal .post .article-content-wrap .meta-comment-count{
+    margin-left:15px
+}
+ .post-area.standard-minimal .post .article-content-wrap .meta-comment-count a, 
+ .post-area.standard-minimal .post .article-content-wrap .meta-category a{
+    font-size:14px
+}
+ .post-area.standard-minimal .post .article-content-wrap .meta-comment-count a:not(:hover), 
+ .post-area.standard-minimal .post .article-content-wrap .meta-category a:not(:hover){
+    color:#aaa
+}
+ .post-area.standard-minimal .post .article-content-wrap a i,
+ .post-area.standard-minimal .post .article-content-wrap .meta-category i{
+    font-size:20px;
+     width:22px;
+     margin-right:5px;
+     transition:color 0.2s linear;
+     -webkit-transition:color 0.2s linear
+}
+ .post-area.standard-minimal .post .article-content-wrap a:not(:hover) i:not(.loved),
+ .post-area.standard-minimal .post .article-content-wrap .meta-category:not(:hover) i{
+    color:#c1c1c1
+}
+.post-area.standard-minimal .post .article-content-wrap .flex-direction-nav a:not(:hover) i:not(.loved),
+.post-area.standard-minimal .post .article-content-wrap .meta-category:not(:hover) .flex-direction-nav i{
+   color:#fff
+}
+ .post-area.standard-minimal .post .post-meta{
+    margin-bottom:0
+}
+ .post-area.standard-minimal #pagination{
+    padding-left:0
+}
+ .post-area.standard-minimal .post .post-meta, 
+ .post-area.standard-minimal .post .post-meta .date{
+    position:relative;
+     padding-bottom:0;
+     border:none
+}
+ .post-area.standard-minimal .post-content{
+    padding-left:175px;
+		overflow: hidden;
+}
+.single .post-area.standard-minimal .post-content {
+	overflow: visible;
+}
+ .post-area.standard-minimal .post-author .grav-wrap{
+    border-radius:100px;
+     overflow:hidden;
+     margin-bottom:10px;
+     width:90px;
+     height:90px;
+     margin:0 auto 25px auto
+}
+
+ .standard-minimal.full-width-content.post-area #pagination {
+     margin-bottom: 40px;
+}
+ .post-area.standard-minimal .post .post-meta.no-img{
+    top:0
+}
+ .post-area.standard-minimal .post .nectar-love .icon-salient-heart {
+    display:none
+}
+ @media only screen and (min-width : 690px) and (max-width : 999px) {
+     .container, .post-area.standard-minimal.full-width-content .post .inner-wrap {
+         max-width: 600px;
+    }
+     .post-area.standard-minimal .post-author .grav-wrap {
+         width: 70px;
+         height: 70px;
+    }
+     .post-area.standard-minimal .post-content {
+         padding-left: 140px;
+    }
+}
+ @media only screen and (max-width: 321px) {
+     .post-area.standard-minimal.full-width-content .post .inner-wrap {
+         max-width: 300px;
+    }
+}
+ @media only screen and (min-width: 480px) and (max-width: 690px) {
+     .post-area.standard-minimal.full-width-content .post .inner-wrap {
+         max-width: 420px;
+    }
+}
+ @media only screen and (max-width: 690px) {
+     .post-area.standard-minimal .post-author {
+         position: relative;
+    }
+     .post-area.standard-minimal .grav-wrap {
+         display: none;
+    }
+     .post-area.standard-minimal .post-author {
+         width: 100%;
+         text-align: left;
+    }
+}

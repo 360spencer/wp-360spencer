@@ -1,0 +1,330 @@
+/*
+Theme Name:  Salient
+Description: Styles for the "Pricing Table" page builder element.
+*/
+
+.pricing-table{
+    margin-top:60px;
+     margin-bottom:30px
+}
+ .pricing-table:after{
+    content:"";
+     display:block;
+     height:0;
+     clear:both;
+     visibility:hidden
+}
+ .pricing-table >div:first-child .pricing-column-content,
+ .pricing-table >div:first-child h3 {
+    border-left:1px solid #e4e4e4
+}
+ .pricing-column{
+    float:left;
+     overflow:hidden;
+     text-align:center;
+     padding:0px;
+     background-color:#fff;
+     transition:box-shadow 0.2s linear;
+     -webkit-transition:box-shadow 0.2s linear;
+}
+ .pricing-column .pricing-column-content{
+    border-right:1px solid #e4e4e4;
+     border-bottom:1px solid #e4e4e4;
+     padding:0px 0px 20px 0px
+}
+ .pricing-column.highlight{
+    position:relative;
+     z-index:100;
+     margin:-20px -1px 0px -1px;
+     background-color:#FFF;
+     box-shadow:0px 0px 13px rgba(0,0,0,.09);
+     -webkit-box-shadow:0px 0px 13px rgba(0,0,0,.09);
+}
+ .pricing-table[data-style="default"] .pricing-column.highlight .nectar-button{
+    margin:10px 0px 20px 0px
+}
+ .pricing-column.highlight .pricing-column-content, 
+ .pricing-column.highlight h3{
+    border:none
+}
+ .pricing-column.highlight h3 .highlight-reason{
+    display:block;
+     font-family:'Open Sans';
+     font-weight:700;
+     font-size:12px;
+     text-transform:uppercase;
+     letter-spacing:1.5px;
+     color:rgba(0,0,0,0.4)
+}
+#ajax-content-wrap .pricing-column.highlight h3 .highlight-reason{
+  line-height: 28px;
+}
+ .pricing-column.highlight .pricing-column-content{
+    border-right:1px solid #e4e4e4;
+     border-left:1px solid #e4e4e4;
+     border-bottom:1px solid #e4e4e4
+}
+ .pricing-column.highlight:hover{
+    box-shadow:0px 0px 13px rgba(0,0,0,.15);
+     -webkit-box-shadow:0px 0px 13px rgba(0,0,0,.15);
+}
+ .pricing-column ul li{
+    color:#888;
+     padding:10px 25px;
+     list-style:none;
+     line-height:18px;
+     border-bottom:1px solid #efefef
+}
+ .pricing-column ul li:first-child{
+    border-top:1px solid #efefef
+}
+ .pricing-column ul li:nth-child(2n+1){
+    background-color:#fbfbfb
+}
+ .pricing-table[data-style="default"] .pricing-column.highlight h3{
+     color:#fff;
+     padding:15px 0px;
+     margin-bottom:0px
+}
+ .toggle .pricing-column h3{
+    font-size:26px
+}
+ .pricing-column h3{
+    background-color:#fff;
+     margin-bottom:0px;
+     font-size:26px;
+     line-height:28px;
+     border-right:1px solid #e4e4e4;
+     border-bottom:1px solid #EFEFEF;
+     border-top:1px solid #e4e4e4;
+     padding:18px 0px 18px 0px
+}
+ .pricing-table .pricing-column .pricing-column-content h4, 
+ .pricing-column h4 {
+    margin-left:-22px;
+     padding:20px 30px 6px 30px;
+     font-size:54px;
+     line-height:42px;
+     color:#333;
+     margin-bottom:0px
+}
+ .pricing-table[data-style="default"] .pricing-column h4 .dollar-sign{
+    font-size:22px;
+     line-height:22px;
+     top:-14px;
+     right:-6px;
+     font-family:'Open Sans';
+     font-weight:300;
+     position:relative
+}
+ .pricing-column .interval{
+    display:block;
+     color:#999;
+     min-height:38px;
+     display:block;
+     padding-bottom:17px
+}
+ .pricing-column ul{
+    margin-left:0px
+}
+ .pricing-table.six-cols >div{
+    width:16.5%
+}
+ .pricing-table.five-cols >div{
+    width:20%
+}
+ .pricing-table.four-cols >div{
+    width:25%
+}
+ .pricing-table.three-cols >div{
+    width:33.2%
+}
+ .pricing-table.two-cols >div{
+    width:50%
+}
+ .pricing-table .col{
+    padding:0px 20px
+}
+ .col .pricing-table h3{
+    margin-bottom:0px
+}
+ .pricing-table[data-style="flat-alternative"] .pricing-column.highlight{
+     box-shadow:0px 15px 30px rgba(0,0,0,.06);
+     -webkit-box-shadow:0px 15px 30px rgba(0,0,0,.06);
+}
+ .pricing-table[data-style="flat-alternative"] .pricing-column.highlight:hover{
+    box-shadow:0px 15px 30px rgba(0,0,0,.09);
+     -webkit-box-shadow:0px 15px 30px rgba(0,0,0,.09);
+}
+ .pricing-table[data-style="flat-alternative"] .pricing-column.highlight h3{
+    background-color:transparent!important
+}
+ .pricing-table[data-style="flat-alternative"].two-cols{
+    text-align:center
+}
+ .pricing-table[data-style="flat-alternative"].two-cols >div{
+    width:31%;
+     display:inline-block;
+     float:none;
+     overflow:visible
+}
+ .pricing-table[data-style="flat-alternative"].three-cols >div{
+    width:31%
+}
+ .pricing-table[data-style="flat-alternative"].four-cols >div{
+    width:22%
+}
+ .pricing-table[data-style="flat-alternative"].five-cols >div{
+     width:18%
+}
+ .pricing-table[data-style="flat-alternative"].six-cols >div{
+    width:14%
+}
+ body .pricing-table[data-style="flat-alternative"] .pricing-column, 
+ body .pricing-table[data-style="flat-alternative"] .pricing-column.highlight{
+    margin-right:3.5%;
+     position:relative;
+     text-align:left
+}
+ body .pricing-table[data-style="flat-alternative"] .pricing-column ul{
+    padding:20px 0;
+     margin:0 0 38px 0
+}
+ .pricing-table[data-style="flat-alternative"].four-cols .pricing-column, 
+ body .pricing-table[data-style="flat-alternative"].four-cols .pricing-column.highlight{
+     margin-right:3%;
+     padding:35px
+}
+ .pricing-table[data-style="flat-alternative"].four-cols .pricing-column.highlight h3 .highlight-reason{
+    padding-left:35px
+}
+ .pricing-table[data-style="flat-alternative"].five-cols .pricing-column, 
+ body .pricing-table[data-style="flat-alternative"].five-cols .pricing-column.highlight{
+     margin-right:2%;
+     padding:25px
+}
+ .pricing-table[data-style="flat-alternative"].five-cols .pricing-column.highlight h3 .highlight-reason{
+    padding-left:30px
+}
+ .pricing-table[data-style="flat-alternative"].six-cols .pricing-column{
+     margin-right:2%;
+     padding:23px
+}
+ .pricing-table[data-style="flat-alternative"].six-cols .pricing-column.highlight h3 .highlight-reason{
+    padding-left:23px
+}
+ .pricing-table[data-style="flat-alternative"] .pricing-column.highlight{
+    overflow:visible
+}
+ .pricing-table[data-style="flat-alternative"] .pricing-column.highlight h3 .highlight-reason{
+    position:absolute;
+     top:-31px;
+     left:0;
+     padding:5px;
+     width:100%;
+     color:#fff
+}
+ .pricing-table[data-style="flat-alternative"] .pricing-column li del,
+ .pricing-table[data-style="flat-alternative"] .pricing-column li del * {
+    color:#bbb;
+     text-decoration:none
+}
+ .pricing-table[data-style="flat-alternative"] .pricing-column:before{
+    display:block;
+     top:0;
+     left:0;
+     width:100%;
+     height:7px;
+     content:' ';
+     position:absolute
+}
+ .pricing-table[data-style="flat-alternative"] .pricing-column li i{
+    margin-right:10px
+}
+ body .wpb_wrapper .pricing-table[data-style="flat-alternative"] >div:last-child {
+    margin-right:0
+}
+ .pricing-table[data-style="flat-alternative"] .pricing-column h4{
+    margin-left:0;
+     letter-spacing:0;
+     padding:0px 0 13px 0;
+     font-size:30px;
+     display:inline-block
+}
+ .pricing-table[data-style="flat-alternative"] .pricing-column h3{
+    font-size:36px
+}
+ .pricing-table[data-style="flat-alternative"] .pricing-column .interval{
+    display:inline-block
+}
+ .pricing-table[data-style="flat-alternative"] .pricing-column .interval:before{
+    content:'/';
+     display:inline-block;
+     padding-right:6px
+}
+ .pricing-table[data-style="flat-alternative"] .nectar-button{
+    font-size:15px
+}
+ .pricing-table[data-style="flat-alternative"] .pricing-column.highlight{
+    margin:0
+}
+body .pricing-table[data-style="flat-alternative"] .pricing-column .pricing-column-content,
+body .pricing-table[data-style="flat-alternative"] .pricing-column h3{
+    border:none
+}
+ .pricing-table[data-style="flat-alternative"] .pricing-column .pricing-column-content{
+    padding-bottom:0
+}
+ .pricing-table[data-style="flat-alternative"] .pricing-column{
+    padding:50px
+}
+ .pricing-table[data-style="flat-alternative"] .pricing-column.highlight h3 .highlight-reason{
+    padding-left:50px
+}
+ .pricing-table[data-style="flat-alternative"] ul li{
+    border:none;
+     padding:8px 0px;
+     color:#444;
+     background-color:transparent
+}
+
+ @media only screen and (min-width : 1px) and (max-width : 999px) {
+     .pricing-table[data-style="flat-alternative"] .pricing-column.highlight {
+         margin-top: 30px!important;
+    }
+     .pricing-table[data-style="flat-alternative"].two-cols > div:nth-child(2), 
+     .pricing-table[data-style="flat-alternative"].three-cols > div:nth-child(2), 
+     .pricing-table[data-style="flat-alternative"].four-cols > div:nth-child(2n+2), 
+     .pricing-table[data-style="flat-alternative"].five-cols > div:nth-child(2n+2) {
+         margin-right: 0!important;
+    }
+}
+ @media only screen and (min-width : 690px) and (max-width : 999px) {
+     .pricing-table[data-style="flat-alternative"].two-cols > div, 
+     .pricing-table[data-style="flat-alternative"].three-cols > div, 
+     .pricing-table[data-style="flat-alternative"].four-cols > div, 
+     .pricing-table[data-style="flat-alternative"].five-cols > div {
+         width: 48%!important;
+    }
+    .pricing-table[class*="cols"] > div {
+      width: 50%;
+      margin-bottom: 25px;
+    }
+  
+    .pricing-table[data-style] .pricing-column.highlight .nectar-button {
+      margin-bottom: 10px;
+      margin-top: 0;
+    }
+  
+    .pricing-column.highlight {
+      margin-top: 0;
+    }
+  
+    .pricing-table[data-style] .pricing-column h3 {
+      font-size: 20px;
+    }
+  
+    .pricing-table[data-style] .pricing-column.highlight h3 {
+      padding: 5px 0px;
+    }
+}

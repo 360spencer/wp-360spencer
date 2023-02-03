@@ -1,0 +1,165 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Project-Id-Version: Salient Widgets\n"
+"POT-Creation-Date: 2019-05-22 08:42-0400\n"
+"PO-Revision-Date: 2019-03-28 09:33-0400\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.2.1\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: plugin.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;"
+"_n_noop:1,2;_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: includes/admin/popular-posts.php:76
+msgid "Display your most popular posts."
+msgstr ""
+
+#: includes/admin/popular-posts.php:79
+msgid "Nectar Popular Posts"
+msgstr ""
+
+#: includes/admin/popular-posts.php:222 includes/admin/popular-posts.php:257
+msgid "Highest Views"
+msgstr ""
+
+#: includes/admin/popular-posts.php:228
+#: includes/admin/recent-posts-extra-widget.php:163
+#: includes/admin/recent-projects-widget.php:163
+msgid "Title:"
+msgstr ""
+
+#: includes/admin/popular-posts.php:233
+msgid "Number Of Posts:"
+msgstr ""
+
+#: includes/admin/popular-posts.php:237
+#: includes/admin/recent-posts-extra-widget.php:167
+msgid "Style:"
+msgstr ""
+
+#: includes/admin/popular-posts.php:239
+#: includes/admin/recent-posts-extra-widget.php:169
+msgid "Hover Featured Image"
+msgstr ""
+
+#: includes/admin/popular-posts.php:240
+msgid "Hover Featured Image Gradient And Counter"
+msgstr ""
+
+#: includes/admin/popular-posts.php:241
+#: includes/admin/recent-posts-extra-widget.php:170
+msgid "Minimal Counter"
+msgstr ""
+
+#: includes/admin/popular-posts.php:242
+#: includes/admin/recent-posts-extra-widget.php:171
+msgid "Featured Image Left"
+msgstr ""
+
+#: includes/admin/popular-posts.php:246
+msgid "Timeline:"
+msgstr ""
+
+#: includes/admin/popular-posts.php:248
+msgid "All Time"
+msgstr ""
+
+#: includes/admin/popular-posts.php:249
+msgid "Posts Published Within 7 Days"
+msgstr ""
+
+#: includes/admin/popular-posts.php:250
+msgid "Posts Published Within 30 Days"
+msgstr ""
+
+#: includes/admin/popular-posts.php:251
+msgid "Posts Published Within 1 Year"
+msgstr ""
+
+#: includes/admin/popular-posts.php:255
+msgid "Popular Posts Order By:"
+msgstr ""
+
+#: includes/admin/popular-posts.php:258
+msgid "Highest Comments"
+msgstr ""
+
+#: includes/admin/recent-posts-extra-widget.php:26
+msgid "The most recent posts on your site, including post thumbnails & dates."
+msgstr ""
+
+#: includes/admin/recent-posts-extra-widget.php:27
+msgid "Nectar Recent Posts Extra"
+msgstr ""
+
+#: includes/admin/recent-posts-extra-widget.php:54
+msgid "Recent Posts Extra"
+msgstr ""
+
+#: includes/admin/recent-posts-extra-widget.php:176
+msgid "Category:"
+msgstr ""
+
+#: includes/admin/recent-posts-extra-widget.php:179
+msgid "All"
+msgstr ""
+
+#: includes/admin/recent-posts-extra-widget.php:201
+msgid "Number of posts to show:"
+msgstr ""
+
+#: includes/admin/recent-posts-extra-widget.php:203
+msgid "(at most 15)"
+msgstr ""
+
+#: includes/admin/recent-projects-widget.php:52
+msgid "The most recent projects on your site."
+msgstr ""
+
+#: includes/admin/recent-projects-widget.php:53
+#: includes/admin/recent-projects-widget.php:77
+msgid "Recent Projects"
+msgstr ""
+
+#: includes/admin/recent-projects-widget.php:117
+msgid "no image added yet."
+msgstr ""
+
+#: includes/admin/recent-projects-widget.php:166
+msgid "Number of projects to show:"
+msgstr ""
+
+#: includes/admin/recent-projects-widget.php:168
+msgid "Change in increments of 3 (at most 9)"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "Salient Widgets"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "--"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "Adds the Salient collection of widgets."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "ThemeNectar"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "http://themenectar.com"
+msgstr ""

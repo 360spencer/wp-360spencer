@@ -1,0 +1,145 @@
+/*
+Theme Name:  Salient
+Description: Header Layout set to "Centered Menu Alt" in theme options
+*/
+
+#header-outer[data-format="centered-menu-under-logo"] #top nav >.buttons {
+  margin-left:15px
+}
+
+#header-outer[data-format="centered-menu-under-logo"] #top nav{
+  display:inline-block
+}
+#header-outer[data-format="centered-menu-under-logo"] .span_9{
+  text-align:center;
+  line-height:1px
+}
+body.original #header-outer[data-format="centered-menu-under-logo"] #top .row .span_9,
+body.original #header-outer[data-format="centered-menu-under-logo"] #top .row .span_3,
+body.ascend #header-outer[data-format="centered-menu-under-logo"] #top .row .span_9,
+body.ascend #header-outer[data-format="centered-menu-under-logo"] #top .row .span_3,
+body.material #header-outer[data-format="centered-menu-under-logo"] #top .row .span_9,
+body.material #header-outer[data-format="centered-menu-under-logo"] #top .row .span_3 {
+  display:block;
+  float:none;
+  width:100%!important
+}
+body #header-outer[data-format="centered-menu-under-logo"] .span_3{
+  text-align:center;
+	line-height: 1;
+}
+#header-outer[data-format="centered-menu-under-logo"] #top nav >.sf-menu >li ul {
+  text-align:left
+}
+#header-outer[data-format="centered-menu-under-logo"] #top .span_9{
+  position:relative
+}
+#header-outer[data-format="centered-menu-under-logo"] .cart-menu{
+  -ms-transform:translateY(-50%);
+  -webkit-transform:translateY(-50%);
+  transform:translateY(-50%);
+  top:50%
+}
+#header-outer[data-format="centered-menu-under-logo"] #top .span_9 nav >ul >li:not(#social-in-menu):not(#search-btn):not(.slide-out-widget-area-toggle) >a {
+  padding-top:0;
+  margin-bottom:20px
+}
+#header-outer[data-format="centered-menu-under-logo"] #top .span_9 ul #search-btn,
+#header-outer[data-format="centered-menu-under-logo"] #top .span_9 ul #nectar-user-account,
+#header-outer[data-format="centered-menu-under-logo"] #top nav >ul .slide-out-widget-area-toggle {
+  padding-top:0;
+  padding-bottom:0
+}
+#header-outer[data-format="centered-menu-under-logo"] #top .span_9 ul #social-in-menu a {
+  margin-top:0;
+  margin-bottom:20px
+}
+#header-outer[data-format="centered-menu-under-logo"] #top #logo {
+	display: inline-block;
+}
+#header-outer[data-format="centered-menu-under-logo"] #top #logo img{
+  margin:0 auto 0 auto
+}
+#header-outer[data-format="centered-menu-under-logo"] #top #logo .starting-logo{
+  position:absolute;
+  margin-bottom:0;
+  left:50%;
+  -webkit-transform:translateX(-50%) translateZ(0);
+	transform:translateX(-50%) translateZ(0);
+}
+@media only screen and (min-width: 1000px) {
+  #header-outer[data-format="centered-menu-under-logo"] #top #logo .starting-logo{
+    top:0;
+  }
+}
+@media only screen and (max-width: 999px) {
+  #header-outer[data-format="centered-menu-under-logo"] #top #logo .starting-logo {
+    left: 0;
+    -webkit-transform: none;
+    transform: none;
+  }
+}
+
+#header-outer[data-header-button_style*="hover_scale"][data-format="centered-menu-under-logo"] #top nav >ul >li[class*="button_"] >a:hover:before,
+#header-outer[data-header-button_style*="hover_scale"][data-format="centered-menu-under-logo"] #top nav ul .slide-out-widget-area-toggle[data-custom-color="true"] a:hover:before {
+	-webkit-transform: scale(1.1) translateY(-9px);
+  transform: scale(1.1) translateY(-9px);
+}
+
+
+#header-outer[data-format="centered-menu-under-logo"] #top nav >ul >li[class*="button_"] >a:before {
+  -webkit-transform:translateY(-9px);
+	transform:translateY(-9px);
+}
+
+#header-outer[data-format="centered-menu-under-logo"] #top li[class*="button_"].menu-item-has-icon >a:before {
+	top: 0;
+}
+#header-outer[data-format="centered-menu-under-logo"] #top nav >ul >li[class*="button_"] >a {
+	line-height: 1.25em;
+}
+
+
+@media only screen and (min-width: 1000px) {
+  #header-outer[data-format="centered-menu-under-logo"] .span_9,
+  #header-outer[data-format="centered-menu-under-logo"] .span_9 nav,
+  #header-outer[data-format="centered-menu-under-logo"] #top .row .span_9 {
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    width: 100%;
+  }
+  #header-outer[data-format="centered-menu-under-logo"] .cart-menu {
+    -webkit-transform: none;
+    transform: none;
+  }
+}
+
+#header-outer[data-format="centered-menu-under-logo"] #top .span_9 nav >.buttons {
+  padding-bottom: 20px;
+}
+
+#header-outer[data-transparent-header="true"][data-format="centered-menu-under-logo"] #logo .dark-version {
+  position:relative
+}
+
+
+@media only screen and (min-width : 1px) and (max-width : 999px) {
+
+  body.ascend #header-outer[data-format="centered-menu-under-logo"] #top .row .span_9,
+  body.original #header-outer[data-format="centered-menu-under-logo"] #top .row .span_9,
+  body.material #header-outer[data-format="centered-menu-under-logo"] #top .row .span_9,
+  #header-outer[data-format="centered-menu-under-logo"] #top .span_9 {
+    min-height: 0;
+    width: auto!important;
+    position: absolute!important;
+    right: 0;
+    top: 0;
+    z-index: 2000;
+    height: 100%;
+  }
+
+  .material #header-outer[data-format="centered-menu-under-logo"] #top .span_9 {
+    line-height: inherit;
+  }
+}
