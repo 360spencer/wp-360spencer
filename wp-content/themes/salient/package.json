@@ -1,0 +1,24 @@
+{
+  "name": "salient",
+  "version": "13.0.5",
+  "description": "Thank you for purchasing Salient!",
+  "main": "",
+  "scripts": {
+    "zip": "gulp zip",
+    "zip-plugins": "gulp zip-plugins",
+    "build-js": "gulp pack-js && gulp copy-js",
+    "build-css": "gulp pack-css",
+    "build": "gulp pack-js && gulp copy-js && gulp pack-css",
+    "start": "gulp watch-assets"
+  },
+  "author": "",
+  "license": "UNLICENSED",
+  "homepage": "https://themeforest.net/item/salient-responsive-multipurpose-theme/4363266",
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-clean-css": "^4.3.0",
+    "gulp-minify": "^3.1.0",
+    "gulp-zip": "^5.1.0",
+    "minimist": "^1.2.5"
+  }
+}

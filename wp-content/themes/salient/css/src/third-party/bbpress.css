@@ -1,0 +1,59 @@
+/*
+  Theme Name:  Salient
+  Description: "bbPress" plugin basic Salient integration
+*/
+
+.bbp-author-avatar img{
+  margin-bottom:-3px
+}
+body #bbpress-forums fieldset.bbp-form{
+  border:1px solid #D9D9D9
+}
+#bbpress-forums fieldset.bbp-form p{
+  padding-bottom:10px
+}
+#bbpress-forums .bbp-header, 
+#bbpress-forums .bbp-footer{
+  font-weight:normal
+}
+#bbpress-forums .bbp-body ul.forum, 
+#bbpress-forums .bbp-body ul.topic{
+  padding-left:15px
+}
+#bbpress-forums .bbp-forum-header, 
+#bbpress-forums .bbp-topic-header, 
+#bbpress-forums .bbp-reply-header{
+  background-color:#f4f4f4
+}
+.bbp-topic-meta{
+  margin-top:1px
+}
+#bbpress-forums .bbp-header{
+  background-color:#f1f1f1
+}
+#bbpress-forums .wp-editor-container, 
+#bbpress-forums ul.bbp-lead-topic, 
+#bbpress-forums ul.bbp-topics, 
+#bbpress-forums ul.bbp-forums, 
+#bbpress-forums ul.bbp-replies, 
+#bbpress-forums ul.bbp-search-results{
+  border:1px solid #DDD
+}
+.bbp-topic-permalink{
+  font-size:14px
+}
+.topic .bbp-topic-title{
+  margin-top:2px
+}
+.bbp-template-notice p{
+  padding:4px
+}
+#bbp_search_submit, #members_search_submit{
+  padding:10px 11px
+}
+#bbpress-forums #subscription-toggle{
+  color:#ccc
+}
+body #bbpress-forums fieldset.bbp-form{
+  padding-bottom:20px
+}

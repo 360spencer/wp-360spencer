@@ -1,0 +1,134 @@
+/*
+Theme Name:  Salient
+Description: Styles for the "Scrolling Text" page builder element.
+*/
+
+.nectar-scrolling-text {
+	overflow: hidden;
+  text-size-adjust: 100%; 
+  -webkit-text-size-adjust: 100%;
+}
+
+.nectar-scrolling-text .nectar-scrolling-text-inner {
+	width: 100%;
+	height: auto;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+	overflow: hidden;
+	white-space: nowrap;
+}
+.nectar-scrolling-text .nectar-scrolling-text-inner__text-chunk {
+  display: flex;
+  flex-direction: row;
+}
+
+.nectar-scrolling-text .nectar-scrolling-text-inner__text-chunk.has-multiple-items > * {
+	margin: 0 0.12em;
+}
+
+.nectar-scrolling-text[data-overflow="visible"],
+.nectar-scrolling-text[data-overflow="visible"] .nectar-scrolling-text-inner {
+	overflow: visible;
+}
+
+.nectar-scrolling-text .nectar-scrolling-text-inner > * {
+	color: inherit;
+	margin-bottom: 0;
+}
+.nectar-scrolling-text .nectar-scrolling-text-inner > .nectar-scrolling-text-inner__text-chunk * {
+	color: inherit;
+}
+
+.nectar-scrolling-text .nectar-scrolling-text-inner > * {
+	transform: translateX(-20%) translateZ(0);
+	animation: nectar-scrolling-text-animation linear infinite 15s;
+}
+
+.nectar-scrolling-text[data-s-dir="rtl"] .nectar-scrolling-text-inner {
+  justify-content: flex-end;
+}
+.nectar-scrolling-text[data-s-dir="rtl"] .nectar-scrolling-text-inner > * {
+	transform: translateX(20%) translateZ(0);
+	animation: nectar-scrolling-text-animation-reverse linear infinite 15s;
+}
+.nectar-scrolling-text[data-s-speed="static"] .nectar-scrolling-text-inner > * {
+	animation: none
+}
+.nectar-scrolling-text[data-s-speed="slower"] .nectar-scrolling-text-inner > * {
+	animation-duration: 45s;
+}
+.nectar-scrolling-text[data-s-speed="slowest"] .nectar-scrolling-text-inner > * {
+	animation-duration: 30s;
+}
+.nectar-scrolling-text[data-s-speed="slow"] .nectar-scrolling-text-inner > * {
+	animation-duration: 14s;
+}
+.nectar-scrolling-text[data-s-speed="medium"] .nectar-scrolling-text-inner > * {
+	animation-duration: 7s;
+}
+.nectar-scrolling-text[data-s-speed="fast"] .nectar-scrolling-text-inner > * {
+	animation-duration: 4s;
+}
+
+
+.nectar-scrolling-text[data-spacing="true"] .nectar-scrolling-text-inner > h1,
+.nectar-scrolling-text[data-spacing="true"] .nectar-scrolling-text-inner > h2,
+.nectar-scrolling-text[data-spacing="true"] .nectar-scrolling-text-inner > h3,
+.nectar-scrolling-text[data-spacing="true"] .nectar-scrolling-text-inner > h4,
+.nectar-scrolling-text[data-spacing="true"] .nectar-scrolling-text-inner > h5,
+.nectar-scrolling-text[data-spacing="true"] .nectar-scrolling-text-inner > h6,
+.nectar-scrolling-text[data-spacing="true"] .nectar-scrolling-text-inner > p,
+.nectar-scrolling-text[data-spacing="true"] .nectar-scrolling-text-inner > strong,
+.nectar-scrolling-text[data-spacing="true"] .nectar-scrolling-text-inner > b,
+.nectar-scrolling-text[data-spacing="true"] .nectar-scrolling-text-inner > .nectar-scrolling-text-inner__text-chunk {
+	padding-left: 0.45em;
+}
+
+.row .nectar-scrolling-text .nectar-scrolling-text-inner > *,
+.row .nectar-scrolling-text .nectar-scrolling-text-inner > .nectar-scrolling-text-inner__text-chunk > * {
+	margin-bottom: 0;
+}
+
+.nectar-scrolling-text .nectar-scrolling-text-inner span.custom {
+	padding: 0 0.4em;
+  display: inline-block;
+	vertical-align: middle;
+	font-weight: normal;
+}
+
+.nectar-scrolling-text .nectar-scrolling-text-inner span.custom[data-scale="three-fourths"] {
+	-webkit-transform: scale(0.75);
+	transform: scale(0.75);
+		padding: 0 0.35em;
+}
+
+.nectar-scrolling-text .nectar-scrolling-text-inner span.custom[data-scale="half"] {
+	-webkit-transform: scale(0.5);
+	transform: scale(0.5);
+	padding: 0 0.3em;
+}
+
+@keyframes nectar-scrolling-text-animation {
+	  from {
+			transform: translateX(-20%) translateZ(0);
+		}
+    to {
+        transform: translateX(-120%) translateZ(0);
+    }
+}
+
+@keyframes nectar-scrolling-text-animation-reverse {
+	  from {
+			transform: translateX(20%) translateZ(0);
+		}
+    to {
+        transform: translateX(120%) translateZ(0);
+    }
+}
+
+
+
+
+

@@ -1,0 +1,78 @@
+/*
+Theme Name:  Salient
+Description: Styles for the "Morphing Outline" page builder element.
+*/
+
+.morphing-outline{
+  visibility:visible;
+  padding:90px 50px;
+  text-align:center
+}
+.morphing-outline .inner{
+  -webkit-transition:color .35s cubic-bezier(.65,0,.35,1);
+  transition:color .35s cubic-bezier(.65,0,.35,1);
+  position:relative;
+  display:inline-block;
+  line-height:1;
+  z-index:1;
+  -webkit-perspective:1000;
+  text-align:center
+}
+.morphing-outline .inner p{
+  padding-bottom:10px
+}
+body .wpb_column:hover >.wpb_wrapper >.morphing-outline .inner >*{
+  transform:scale(1.11);
+  -webkit-transform:scale(1.11);
+}
+body .wpb_column >.wpb_wrapper >.morphing-outline .inner >h5{
+  transform:scale(0.68);
+  -webkit-transform:scale(0.68);
+}
+body .wpb_column:hover >.wpb_wrapper >.morphing-outline .inner >h5{
+  transform:scale(0.77);
+  -webkit-transform:scale(0.77);
+}
+.morphing-outline .inner >*{
+  color:#fff;
+  -webkit-transition:color .35s cubic-bezier(.65,0,.35,1),transform .35s cubic-bezier(.65,0,.35,1);
+  transition:color .35s cubic-bezier(.65,0,.35,1),transform .35s cubic-bezier(.65,0,.35,1)
+}
+.morphing-outline .inner >*:last-child{
+  margin-bottom:0;
+  padding-bottom:0
+}
+.morphing-outline .inner:after{
+  -webkit-transition:all .35s cubic-bezier(.65,0,.35,1);
+  transition:all .35s cubic-bezier(.65,0,.35,1);
+  height:100%;
+  width:100%;
+  position:absolute;
+  left:-62px;
+  top:-92px;
+  padding:80px 50px;
+  z-index:-1;
+  border-width:12px;
+  border-style:solid;
+  border-color:#fff;
+  display:block;
+  content:'';
+  border-radius:50%
+}
+body[data-button-style="default"] .wpb_column >.wpb_wrapper >.morphing-outline .inner:after,
+body[data-button-style="default"] .wpb_column >.vc_column-inner >.wpb_wrapper >.morphing-outline .inner:after{
+  border-radius:0
+}
+body[data-button-style="default"] .wpb_column:hover >.wpb_wrapper >.morphing-outline .inner:after,
+body[data-button-style="default"] .wpb_column:hover >.vc_column-inner >.wpb_wrapper >.morphing-outline .inner:after{
+  border-radius:50%
+}
+.wpb_column:hover >.wpb_wrapper >.morphing-outline .inner:after,
+.wpb_column:hover >.vc_column-inner >.wpb_wrapper >.morphing-outline .inner:after{
+  border-radius:0%;
+  border-color:#fff;
+}
+.wpb_column:hover >.wpb_wrapper >.morphing-outline .inner >*,
+.wpb_column:hover >.vc_column-inner >.wpb_wrapper >.morphing-outline .inner >*{
+  color:#fff
+}

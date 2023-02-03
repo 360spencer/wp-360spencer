@@ -1,0 +1,68 @@
+/*
+Theme Name:  Salient
+Description: Header Layout set to "Centered Logo Between Menu Alt" in theme options
+*/
+
+@media only screen and (min-width: 1000px) {
+
+  #header-outer[data-header-resize="1"] #top #logo {
+    transition: margin 0.32s ease, color 0.32s ease;
+  }
+
+  #header-outer #top > .container > .row {
+    align-items: center;
+    justify-content: center;
+  }
+  #header-outer #top > .container > .row > .span_9 {
+    order: 1;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    z-index: 10;
+    height: 100%;
+    pointer-events: none;
+  }
+  #header-outer #top > .container > .row > .span_3 {
+    margin-right: 0;
+    z-index: 200;
+  }
+  #header-outer #top > .container > .row > .right-aligned-menu-items {
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: 100;
+    height: 100%;
+    width: 100%;
+    justify-content: flex-end;
+    align-items: center;
+    display: flex;
+    pointer-events: none;
+  }
+  #header-outer:not(.material-search-open) #top > .container > .row > .right-aligned-menu-items nav,
+  #header-outer #top > .container > .row > .span_9 nav {
+    pointer-events: all;
+  }
+  #header-outer #top > .container > .row > .right-aligned-menu-items nav {
+    height: 100%;
+  }
+  #top nav .buttons li.nectar-megamenu-menu-item {
+    position: static;
+  }
+
+  #header-outer[data-lhe="animated_underline"] #top .right-aligned-menu-items nav > ul > li.menu-item:last-of-type > a {
+    margin-right: 0;
+  }
+  #header-outer[data-lhe="animated_underline"] #top .span_9 nav > ul > li.menu-item:first-of-type > a {
+    margin-left: 0;
+  }
+
+  #header-outer[data-lhe="default"] #top .right-aligned-menu-items nav > ul > li.menu-item:last-of-type:not([class*="button"]) > a,
+  #header-outer .nectar-header-text-content-wrap:last-child .nectar-header-text-content {
+    padding-right: 0;
+  }
+  #header-outer[data-lhe="default"] #top .span_9 nav > ul > li.menu-item:first-of-type:not([class*="button"]) > a {
+    padding-left: 0;
+  }
+  
+}
