@@ -1,0 +1,51 @@
+@font-face {
+  font-family: 'salient-social';
+  src:  url('https://360spencer.github.io/wp-360spencer/wp-content/plugins/salient-social/css/fonts/salient-social.eot?clmgym');
+  src:  url('https://360spencer.github.io/wp-360spencer/wp-content/plugins/salient-social/css/fonts/salient-social.eot?clmgym#iefix') format('embedded-opentype'),
+    url('https://360spencer.github.io/wp-360spencer/wp-content/plugins/salient-social/css/fonts/salient-social.ttf?clmgym') format('truetype'),
+    url('https://360spencer.github.io/wp-360spencer/wp-content/plugins/salient-social/css/fonts/salient-social.woff?clmgym') format('woff'),
+    url('https://360spencer.github.io/wp-360spencer/wp-content/plugins/salient-social/css/fonts/salient-social.svg?clmgym#salient-social') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.nectar-social i,
+.icon-salient-heart-2 {
+  font-family: 'salient-social' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-ss-twitter:before,
+.nectar-social .fa-twitter:before {
+  content: "\f099";
+}
+.icon-ss-facebook:before,
+.nectar-social .fa-facebook:before {
+  content: "\f09a";
+}
+.icon-ss-pinterest:before,
+.nectar-social .fa-pinterest:before {
+  content: "\f0d2";
+}
+.icon-ss-linkedin:before,
+.nectar-social .fa-linkedin:before {
+  content: "\f0e1";
+}
+.icon-ss-social:before,
+.nectar-social .steadysets-icon-share:before {
+  content: "\e081";
+}
+
+.icon-salient-heart-2:before {
+  content: "\e024";
+}
+.sharing-default-minimal .nectar-social .icon-salient-heart-2.loved:before {
+  content: "\e00e";
+}
