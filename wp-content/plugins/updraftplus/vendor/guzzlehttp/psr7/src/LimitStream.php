@@ -1,2 +1,0 @@
-<br>
-<b>Fatal error</b>:  Trait &quot;GuzzleHttp\Psr7\StreamDecoratorTrait&quot; not found in <b>/Users/spencer/Local Sites/360spencer/app/public/wp-content/plugins/updraftplus/vendor/guzzlehttp/psr7/src/LimitStream.php</b> on line <b>12</b><br>
