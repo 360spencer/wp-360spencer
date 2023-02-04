@@ -7,9 +7,9 @@
 	>
 <channel>
 	<title>
-	Comments for 360spencer2	</title>
-	<atom:link href="http://360spencer.github.io/wp-360spencer/comments/feed/" rel="self" type="application/rss+xml" />
-	<link>http://360spencer.github.io/wp-360spencer/</link>
+	Comments on: Hello world!	</title>
+	<atom:link href="http://360spencer.github.io/wp-360spencer/hello-world/feed/" rel="self" type="application/rss+xml" />
+	<link>http://360spencer.github.io/wp-360spencer/hello-world/</link>
 	<description></description>
 	<lastBuildDate>Sat, 04 Feb 2023 02:10:22 +0000</lastBuildDate>
 	<sy:updatePeriod>
@@ -19,7 +19,7 @@
 	<generator>https://wordpress.org/?v=6.1.1</generator>
 	<item>
 		<title>
-		Comment on Hello world! by A WordPress Commenter		</title>
+		By: A WordPress Commenter		</title>
 		<link>http://360spencer.github.io/wp-360spencer/hello-world/#comment-1</link>
 
 		<dc:creator><![CDATA[A WordPress Commenter]]></dc:creator>
