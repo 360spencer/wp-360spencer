@@ -288,8 +288,8 @@
 
 @font-face{
     font-family:vcpb-plugin-icons;
-    src:url(/wp-content/plugins/js_composer_salient/assets/fonts/vc_icons_v2/fonts/vcpb-plugin-icons.eot?f6ud62);
-    src:url(/wp-content/plugins/js_composer_salient/assets/fonts/vc_icons_v2/fonts/vcpb-plugin-icons.eot?f6ud62#iefix) format('embedded-opentype'),url(/wp-content/plugins/js_composer_salient/assets/fonts/vc_icons_v2/fonts/vcpb-plugin-icons.ttf?f6ud62) format('truetype'),url(/wp-content/plugins/js_composer_salient/assets/fonts/vc_icons_v2/fonts/vcpb-plugin-icons.woff?f6ud62) format('woff'),url(/wp-content/plugins/js_composer_salient/assets/fonts/vc_icons_v2/fonts/vcpb-plugin-icons.svg?f6ud62#vcpb-plugin-icons) format('svg');
+    src:url(https://360spencer.github.io/wp-360spencer/wp-content/plugins/js_composer_salient/assets/fonts/vc_icons_v2/fonts/vcpb-plugin-icons.eot?f6ud62);
+    src:url(https://360spencer.github.io/wp-360spencer/wp-content/plugins/js_composer_salient/assets/fonts/vc_icons_v2/fonts/vcpb-plugin-icons.eot?f6ud62#iefix) format('embedded-opentype'),url(https://360spencer.github.io/wp-360spencer/wp-content/plugins/js_composer_salient/assets/fonts/vc_icons_v2/fonts/vcpb-plugin-icons.ttf?f6ud62) format('truetype'),url(https://360spencer.github.io/wp-360spencer/wp-content/plugins/js_composer_salient/assets/fonts/vc_icons_v2/fonts/vcpb-plugin-icons.woff?f6ud62) format('woff'),url(https://360spencer.github.io/wp-360spencer/wp-content/plugins/js_composer_salient/assets/fonts/vc_icons_v2/fonts/vcpb-plugin-icons.svg?f6ud62#vcpb-plugin-icons) format('svg');
     font-weight:400;
     font-style:normal
 }
@@ -903,7 +903,7 @@ a.wpb_button_a {
     display: block;
     width: 16px;
     height: 16px;
-    background-image: url(/wp-content/plugins/js_composer_salient/assets/images/toggle_open.png);
+    background-image: url(https://360spencer.github.io/wp-360spencer/wp-content/plugins/js_composer_salient/assets/images/toggle_open.png);
     background-repeat: no-repeat;
     position: absolute;
     right: .7em;
@@ -911,7 +911,7 @@ a.wpb_button_a {
 }
 
 .wpb_accordion .wpb_accordion_wrapper .ui-state-active .ui-icon {
-    background-image: url(/wp-content/plugins/js_composer_salient/assets/images/toggle_close.png)
+    background-image: url(https://360spencer.github.io/wp-360spencer/wp-content/plugins/js_composer_salient/assets/images/toggle_close.png)
 }
 
 
@@ -1239,8 +1239,8 @@ body .wpb_gallery_slides ul li {
 
 @font-face {
     font-family: vc_grid_v1;
-    src: url(/wp-content/plugins/js_composer_salient/assets/fonts/vc_grid/vc_grid_v1.eot?-9hbgac);
-    src: url(/wp-content/plugins/js_composer_salient/assets/fonts/vc_grid/vc_grid_v1.eot#iefix-9hbgac) format('embedded-opentype'), url(/wp-content/plugins/js_composer_salient/assets/fonts/vc_grid/vc_grid_v1.woff?-9hbgac) format('woff'), url(/wp-content/plugins/js_composer_salient/assets/fonts/vc_grid/vc_grid_v1.ttf?-9hbgac) format('truetype'), url(/wp-content/plugins/js_composer_salient/assets/fonts/vc_grid/vc_grid_v1.svg?-9hbgac#vc_grid_v1) format('svg');
+    src: url(https://360spencer.github.io/wp-360spencer/wp-content/plugins/js_composer_salient/assets/fonts/vc_grid/vc_grid_v1.eot?-9hbgac);
+    src: url(https://360spencer.github.io/wp-360spencer/wp-content/plugins/js_composer_salient/assets/fonts/vc_grid/vc_grid_v1.eot#iefix-9hbgac) format('embedded-opentype'), url(https://360spencer.github.io/wp-360spencer/wp-content/plugins/js_composer_salient/assets/fonts/vc_grid/vc_grid_v1.woff?-9hbgac) format('woff'), url(https://360spencer.github.io/wp-360spencer/wp-content/plugins/js_composer_salient/assets/fonts/vc_grid/vc_grid_v1.ttf?-9hbgac) format('truetype'), url(https://360spencer.github.io/wp-360spencer/wp-content/plugins/js_composer_salient/assets/fonts/vc_grid/vc_grid_v1.svg?-9hbgac#vc_grid_v1) format('svg');
     font-weight: 400;
     font-style: normal
 }
@@ -1721,17 +1721,17 @@ body .wpb_gallery_slides ul li {
     display: inline-block;
     pointer-events: none;
     margin-top: 6px;
-    background: url(/wp-content/plugins/js_composer_salient/assets/images/spinner.gif) no-repeat;
+    background: url(https://360spencer.github.io/wp-360spencer/wp-content/plugins/js_composer_salient/assets/images/spinner.gif) no-repeat;
     background-position-x: center;
     background-position-y: center
 }
 
 .vc-spinner.vc-spinner-complete::before {
-    background-image: url(/wp-content/plugins/js_composer_salient/assets/vc/tick.png)
+    background-image: url(https://360spencer.github.io/wp-360spencer/wp-content/plugins/js_composer_salient/assets/vc/tick.png)
 }
 
 .vc-spinner.vc-spinner-failed::before {
-    background-image: url(/wp-content/plugins/js_composer_salient/assets/vc/remove.png)
+    background-image: url(https://360spencer.github.io/wp-360spencer/wp-content/plugins/js_composer_salient/assets/vc/remove.png)
 }
 
 

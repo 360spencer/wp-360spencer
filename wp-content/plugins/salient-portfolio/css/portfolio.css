@@ -1593,7 +1593,7 @@ body .container-wrap[data-nav-pos="after_project_2"] .bottom_controls .previous-
 
 .portfolio-items .col .work-item.style-3 a:not(.nectar-sharing),
 .portfolio-items .col .work-item.style-3-alt a:not(.nectar-sharing) {
-	background: transparent url('/wp-content/plugins/salient-portfolio/img/transparent.png') repeat 0 0;	
+	background: transparent url('https://360spencer.github.io/wp-360spencer/wp-content/plugins/salient-portfolio/img/transparent.png') repeat 0 0;	
 }
 
 .portfolio-items .col .work-item.style-3 .vert-center h3, 

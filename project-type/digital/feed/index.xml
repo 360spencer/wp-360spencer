@@ -9,8 +9,8 @@
 
 <channel>
 	<title>Digital &#8211; 360Spencer</title>
-	<atom:link href="/project-type/digital/feed/" rel="self" type="application/rss+xml" />
-	<link>/</link>
+	<atom:link href="https://360spencer.github.io/wp-360spencer/project-type/digital/feed/" rel="self" type="application/rss+xml" />
+	<link>https://360spencer.github.io/wp-360spencer/</link>
 	<description>UX Design Director</description>
 	<lastBuildDate>Thu, 02 Feb 2023 21:56:47 +0000</lastBuildDate>
 	<language>en-US</language>
@@ -21,11 +21,11 @@
 	<generator>https://wordpress.org/?v=6.1.1</generator>
 	<item>
 		<title>Aol. My Benefits</title>
-		<link>/project/aol-my-benefits/</link>
+		<link>https://360spencer.github.io/wp-360spencer/project/aol-my-benefits/</link>
 		
 		<dc:creator><![CDATA[spencer]]></dc:creator>
 		<pubDate>Thu, 26 Jan 2023 04:00:13 +0000</pubDate>
-				<guid isPermaLink="false">/?post_type=portfolio#038;p=6552</guid>
+				<guid isPermaLink="false">https://360spencer.github.io/wp-360spencer/?post_type=portfolio#038;p=6552</guid>
 
 					<description><![CDATA[]]></description>
 										<content:encoded><![CDATA[]]></content:encoded>
@@ -35,11 +35,11 @@
 			</item>
 		<item>
 		<title>XO Communications</title>
-		<link>/project/xo-communications/</link>
+		<link>https://360spencer.github.io/wp-360spencer/project/xo-communications/</link>
 		
 		<dc:creator><![CDATA[spencer]]></dc:creator>
 		<pubDate>Thu, 26 Jan 2023 03:00:14 +0000</pubDate>
-				<guid isPermaLink="false">/?post_type=portfolio#038;p=6356</guid>
+				<guid isPermaLink="false">https://360spencer.github.io/wp-360spencer/?post_type=portfolio#038;p=6356</guid>
 
 					<description><![CDATA[]]></description>
 										<content:encoded><![CDATA[]]></content:encoded>
@@ -49,7 +49,7 @@
 			</item>
 		<item>
 		<title>Full Measure Brand</title>
-		<link>/project/fullmeasure-branding/</link>
+		<link>https://360spencer.github.io/wp-360spencer/project/fullmeasure-branding/</link>
 		
 		<dc:creator><![CDATA[spencer]]></dc:creator>
 		<pubDate>Thu, 26 Jan 2023 01:02:36 +0000</pubDate>
